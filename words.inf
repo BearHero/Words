@@ -1,741 +1,999 @@
 state	word	pronounce	mean	hits	miss	extend
-on	de-facto	/di:f@kt3u/	实际上的	0	0	NULL
-on	laureate	/`lo:ri3t/	桂冠	0	0	NULL
-on	Pied Piper	//	花衣魔笛手	0	0	NULL
-on	in style	//	以令人印象深刻方式	0	0	NULL
-on	venerable	//	令人尊敬的	0	0	NULL
-on	stripe	//	类	0	0	NULL
+on	de-facto	/di:f@kt3u/	实际上的	1	0	NULL
+on	laureate	/`lo:ri3t/	桂冠	0	2	NULL
+on	Pied Piper	//	花衣魔笛手	1	0	NULL
+on	in style	//	以令人印象深刻方式	4	0	NULL
+on	venerable	//	令人尊敬的	0	1	NULL
+on	stripe	//	类	2	0	NULL
 on	Platonic	/pl3`ta:nik/	柏拉图式的	0	0	NULL
 on	religious	//	宗教的	0	0	NULL
-on	awe	/o:/	敬畏	0	0	NULL
-on	obscenity	/3b`seniti/	淫秽	0	0	obscene, adj.
+on	awe	/o:/	敬畏	1	0	NULL
+on	obscenity	/3b`seniti/	淫秽	2	0	obscene, adj.
 on	avenger	//	复仇者	0	0	NULL
-on	Ukraine	/ju:`krein/	乌克兰	0	0	Ukrainian, adj.
-on	uncharted	//	未知的 	0	1	地图上未标记
-on	up-end	//	颠倒	0	0	NULL
+on	Ukraine	/ju:`krein/	乌克兰	0	1	Ukrainian, adj.
+on	uncharted	//	未知的 	2	1	地图上未标记
+on	up-end	//	颠倒	1	1	NULL
 on	status quo	//	原来的状况	0	0	NULL
-on	by a landslide	//	以压倒性优势	0	0	landslide, 滑坡
-on	emphatic	/im`f@tik/	明显的	0	0	NULL
-on	bitter	//	苦的	0	0	NULL
-on	blow	/bl3u/	吹、挫折	1	0	NULL
+on	by a landslide	//	以压倒性优势	0	1	landslide, 滑坡
+on	emphatic	/im`f@tik/	明显的	2	2	NULL
+on	bitter	//	苦的	3	0	NULL
+on	blow	/bl3u/	吹、挫折	2	0	NULL
 on	incumbent	/in`kamb3nt/	现任的	0	0	NULL
-on	rally	/`r@li/	团结	0	0	NULL
+on	rally	/`r@li/	团结	2	1	NULL
 on	bulwark	/`bulw3:k/	堡垒	0	0	NULL
-on	champion	//	捍卫者	0	0	冠军
-on	fictitious	/fik`tiSH3s/	虚构的	0	0	NULL
-on	poised	/poizd/	准备就绪的	0	0	NULL
+on	champion	//	捍卫者	1	1	冠军
+on	fictitious	/fik`tiSH3s/	虚构的	1	2	NULL
+on	poised	/poizd/	准备就绪的	0	1	NULL
 on	frontline	//	一线	0	0	on the frontline of
 on	standoff	//	僵局	0	1	NULL
-on	root out	//	根除	0	0	NULL
-on	corruption	/k3`rapSH3n/	腐败	0	0	NULL
-on	amid	/3`mid/	在...过程中	0	0	NULL
-on	dismay	//	沮丧	1	0	NULL
-on	slide	//	滑动的、雪崩	0	0	NULL
-on	coy	/koi/	含糊的	0	0	NULL
-on	reassurance	/,ri:3`SHur3ns/	安慰	0	0	消除疑虑活动的话语
+on	root out	//	根除	1	0	NULL
+on	corruption	/k3`rapSH3n/	腐败	1	1	NULL
+on	amid	/3`mid/	在...过程中	1	2	NULL
+on	dismay	//	沮丧	4	0	NULL
+on	slide	//	滑动的、雪崩	1	1	NULL
+on	coy	/koi/	含糊的	0	2	NULL
+on	reassurance	/,ri:3`SHur3ns/	安慰	0	1	消除疑虑活动的话语
 on	trial	/trail/	审判、官司	0	0	试验、试验的
-on	drop into	//	短暂停留	1	0	NULL
-on	spell	//	一段时间	0	0	drop into ... for a spell
-on	institution	//	出名的人	0	0	NULL
-on	as much of one	//	也同样	1	0	NULL
+on	drop into	//	短暂停留	4	1	NULL
+on	spell	//	一段时间	3	0	drop into ... for a spell
+on	institution	//	出名的人	1	2	NULL
+on	as much of one	//	也同样	2	0	NULL
 on	loom	//	隐约显现	0	0	loom over, 身影无处不在
-on	lusty	//	精力充沛的	0	0	NULL
-on	volume	/`va:lju:m/	书、一卷	0	0	NULL
-on	era	/`i3r3/	时代、年代	0	0	NULL
-on	stem from	//	源自于	0	0	NULL
-on	tragic	//	悲剧的	0	0	tragedy, n.
+on	lusty	//	精力充沛的	0	1	NULL
+on	volume	/`va:lju:m/	书、一卷	1	0	NULL
+on	era	/`i3r3/	时代、年代	2	0	NULL
+on	stem from	//	源自于	1	0	NULL
+on	tragic	//	悲剧的	1	0	tragedy, n.
 on	pester	//	纠缠	1	0	NULL
-on	dread	//	惧怕	0	0	NULL
+on	dread	//	惧怕	3	0	NULL
 on	plaster	//	石膏	1	0	NULL
-on	miserable	//	悲惨的	0	1	NULL
+on	miserable	//	悲惨的	0	2	NULL
 on	console	//	安慰	0	0	NULL
-on	chances are good	//	可能性很大	0	0	NULL
-on	take heart	//	振作精神	0	0	NULL
+on	chances are good	//	可能性很大	3	0	NULL
+on	take heart	//	振作精神	0	1	NULL
 on	hobble	//	瘸着腿走	0	0	NULL
-on	compensate	/`komp3nseit/	补偿	0	0	NULL
-on	mumbling	//	喃喃自语	0	0	mumble, vt.
+on	compensate	/`komp3nseit/	补偿	1	0	NULL
+on	mumbling	//	喃喃自语	1	1	mumble, vt.
 on	bring up	//	出生	0	0	NULL
-on	bask in	//	沉浸在...环境中	0	0	bask, 晒太阳
+on	bask in	//	沉浸在...环境中	1	0	bask, 晒太阳
 on	glory	//	荣誉	0	0	NULL
 on	iconic	/ai`konik/	形象的	0	0	类似商标的意思
 on	drown out	//	淹没	0	0	NULL
 on	tussle	//	争斗	0	0	with sb., over sth.
-on	rivalry	/`raivlri/	对立、竞争	0	0	NULL
-on	pompus	//	自负的	0	0	NULL
-on	hothead	//	性急的人	0	0	NULL
-on	dweller	//	居民	0	0	NULL
-on	spice	//	香料	0	0	NULL
+on	rivalry	/`raivlri/	对立、竞争	1	0	NULL
+on	pompus	//	自负的	1	2	NULL
+on	hothead	//	性急的人	2	0	NULL
+on	dweller	//	居民	1	0	NULL
+on	spice	//	香料	2	0	NULL
 on	lade	//	装载	0	0	spice-laden, 装满香料的
-on	cuisine	/kwi`zi:n/	烹饪、菜系	0	0	Sicuan cuisine, 川菜
-on	palate	/`p@l3t/	味觉	0	0	NULL
-on	communal	/k3`mju:nl/	公用的	0	0	NULL
-on	chilli	//	红辣椒	0	0	NULL
-on	numbing	/`naming/	令人麻木的	0	0	numb, adj.
-on	peppercorn	//	胡椒子	0	0	numbing peppercorns, 花椒
-on	make case of	//	支持	0	0	NULL
-on	offcut	//	边角料	0	0	NULL
-on	catch-up	//	追赶	0	0	NULL
+on	cuisine	/kwi`zi:n/	烹饪、菜系	3	0	Sicuan cuisine, 川菜
+on	palate	/`p@l3t/	味觉	1	1	NULL
+on	communal	/k3`mju:nl/	公用的	1	0	NULL
+on	chilli	//	红辣椒	3	0	NULL
+on	numbing	/`naming/	令人麻木的	2	1	numb, adj.
+on	peppercorn	//	胡椒子	3	0	numbing peppercorns, 花椒
+on	make case of	//	支持	0	1	NULL
+on	offcut	//	边角料	2	1	NULL
+on	catch-up	//	追赶	2	1	NULL
 on	plot	//	情节、小块土地	0	0	NULL
 on	consultancy	//	咨询公司	0	0	NULL
-on	warm to	//	对...越来越有兴趣	0	0	start to warm to
-on	disown	/dis`3un/	与...划清界限	0	0	NULL
-on	altogether	//	完全地	0	0	NULL
-on	farmhand	//	农场工人	1	0	NULL
-on	hay	//	干草	0	0	NULL
+on	warm to	//	对...越来越有兴趣	1	0	start to warm to
+on	disown	/dis`3un/	与...划清界限	2	1	NULL
+on	altogether	//	完全地	4	0	NULL
+on	farmhand	//	农场工人	2	0	NULL
+on	hay	//	干草	1	0	NULL
 on	stay up	//	熬夜	0	0	NULL
-on	conscientious	/,konSH`enSH3s/	认真的	0	0	NULL
-on	none other than	//	不是别人正是	0	0	NULL
-on	desert	//	开小差	1	1	军队中
+on	conscientious	/,konSH`enSH3s/	认真的	1	0	NULL
+on	none other than	//	不是别人正是	1	0	NULL
+on	desert	//	开小差	2	1	军队中
 on	regiment	/`reGim3nt/	把...编成团	0	0	NULL
-on	authority	/o:`Soriti/	权威、当局	1	0	NULL
-on	recluse	//	隐士	0	0	NULL
+on	authority	/o:`Soriti/	权威、当局	3	0	NULL
+on	recluse	//	隐士	1	0	NULL
 on	denomination	/di,no:mi`neiSH3n/	教派	0	0	NULL
 on	minority	/mai`noriti/	少数派	1	0	marjority, 反义词
 on	rocal	/r3ukl/	直言不讳的	0	0	声响大的
-on	opponent	/3`p3un3nt/	对手	0	0	NULL
-on	strike down	//	终结	0	0	NULL
+on	opponent	/3`p3un3nt/	对手	0	1	NULL
+on	strike down	//	终结	0	1	NULL
 on	abortion	//	堕胎	0	0	NULL
-on	Soeul	/s3ul/	首尔	0	0	NULL
+on	Soeul	/s3ul/	首尔	0	1	NULL
 on	constitutional	//	宪法的	0	0	NULL
-on	overturn	//	撤销	1	0	NULL
+on	overturn	//	撤销	2	1	NULL
 on	ban	//	禁令	0	0	NULL
 on	deny	//	禁止	0	0	否认
-on	incest	//	乱伦	0	0	NULL
-on	verdict	//	裁决	0	0	NULL
-on	pave way for	//	为...铺平道路	0	0	pave, 铺路
-on	knock down	//	把...推倒	0	0	NULL
+on	incest	//	乱伦	1	1	NULL
+on	verdict	//	裁决	0	2	NULL
+off	pave way for	//	为...铺平道路	5	0	pave, 铺路
+on	knock down	//	把...推倒	0	1	NULL
 on	stringent	//	严苛的	0	0	NULL
-on	overrule	//	否认、拒绝	0	0	NULL
-on	fine	//	罚款	0	0	NULL
-on	respondent	//	调查对象	0	0	NULL
-on	reprisal	/ri`praizl/	报复	0	0	NULL
-on	premise	/`premis/	假定、前提	0	0	NULL
-on	reality	/ri`@liti/	现实	1	0	NULL
+on	overrule	//	否认、拒绝	0	1	NULL
+on	fine	//	罚款	1	0	NULL
+on	respondent	//	调查对象	0	1	NULL
+on	reprisal	/ri`praizl/	报复	0	1	NULL
+on	premise	/`premis/	假定、前提	0	1	NULL
+on	reality	/ri`@liti/	现实	3	0	NULL
 on	proponent	/pr3`p3un3nt/	支持者	0	0	NULL
-on	outcry	//	强烈建议	0	0	NULL
-on	vulnerable	//	易受伤害的	1	0	NULL
-on	promise	/`promis/	希望、许诺	1	0	NULL
-on	peril	/`per3l/	险情	0	1	NULL
-on	to hand	//	在手边的	0	0	at hand
-on	scramble	//	打乱	0	0	NULL
-on	undertake	//	承担、保证、从事	1	0	NULL
+on	outcry	//	强烈建议	0	1	NULL
+on	vulnerable	//	易受伤害的	1	1	NULL
+on	promise	/`promis/	希望、许诺	2	0	NULL
+on	peril	/`per3l/	险情	1	1	NULL
+on	to hand	//	在手边的	1	0	at hand
+on	scramble	//	打乱	1	1	NULL
+on	undertake	//	承担、保证、从事	2	0	NULL
 on	beneath	/bi`ni:S/	在...之下	1	0	NULL
-on	beget	/bi`get/	导致，成为父亲	0	0	begat, ed.
+on	beget	/bi`get/	导致，成为父亲	1	0	begat, ed.
 on	from scratch	//	白手起家	1	0	NULL
-on	stem cells	//	干细胞	0	0	NULL
-on	coax	/k3uks/	哄劝	0	0	NULL
-on	tissue	/`tiSHu:/	组织、纸巾	0	0	NULL
-on	fertilise	//	使受精	0	0	NULL
-on	harness	//	控制	0	0	not hardness
-on	domestication	/d3,mesti`keiSHn/	驯化	0	0	NULL
-on	hitherto	/,hiZ3`tu:/	迄今为止	0	0	NULL
-on	live one`s live	/i, ai/	过...的生活	0	0	NULL
-on	settlement	//	解决、群居	0	0	NULL
+on	stem cells	//	干细胞	0	1	NULL
+on	coax	/k3uks/	哄劝	0	1	NULL
+on	tissue	/`tiSHu:/	组织、纸巾	0	1	NULL
+on	fertilise	//	使受精	2	1	NULL
+on	harness	//	控制	3	1	not hardness
+on	domestication	/d3,mesti`keiSHn/	驯化	0	1	NULL
+on	hitherto	/,hiZ3`tu:/	迄今为止	0	1	NULL
+on	live one`s live	/i, ai/	过...的生活	1	0	NULL
+on	settlement	//	解决、群居	3	2	NULL
 on	cascade	//	瀑布	0	0	NULL
-on	embryo	/`embri3u/	胚胎	0	0	NULL
-on	ethical	/`eSik3l/	伦理的、道德的	0	0	NULL
-on	nurture	/`n3:CH3/	养育、培育	0	0	NULL
+on	embryo	/`embri3u/	胚胎	3	0	NULL
+on	ethical	/`eSik3l/	伦理的、道德的	2	0	NULL
+on	nurture	/`n3:CH3/	养育、培育	1	1	NULL
 on	send-off	//	送别	1	0	NULL
 on	phrase	//	短语	0	0	not phase
-on	sum up	//	总结	2	0	NULL
-on	epic	//	史实	0	0	NULL
-on	coalesce	/,k3u3`les/	联合、合并	0	0	NULL
-on	inanimate	/in`@nim3t/	无生命的	0	0	NULL
+on	sum up	//	总结	4	0	NULL
+on	epic	//	史诗	3	1	NULL
+on	coalesce	/,k3u3`les/	联合、合并	0	1	NULL
+on	inanimate	/in`@nim3t/	无生命的	2	0	NULL
 on	cosmic	/`ko:zmik/	宇宙的	0	0	NULL
-on	cast	//	抛、投	0	0	NULL
-on	contradictory	//	矛盾的	0	0	NULL
-on	do-over	//	新的尝试	0	0	失败之后的
+on	cast	//	抛、投	1	0	NULL
+on	contradictory	//	矛盾的	0	1	NULL
+on	do-over	//	新的尝试	1	0	失败之后的
 on	at once	//	同时、立刻	0	0	NULL
-on	in a sense	//	某种意义上	0	0	NULL
-on	cannibalize	/`k@nib3laiz/	竞争、蚕食	0	0	NULL
-on	homage	//	崇敬	0	0	NULL
-on	appropriation	/3,pr3upri`eiSHn/	挪用、滥用	0	0	NULL
-on	stake	//	赌注	0	0	NULL
-on	ironic	/ai`ronik/	讽刺的	0	0	NULL
-on	Saga	/`sa:g3/	长篇故事	0	0	NULL
-on	post-credit	//	片尾的、彩蛋	0	0	credit, 演职员表
-on	commerce	/`kom3:s/	商务	0	0	NULL
-on	retreat	/ri`tri:t/	撤退	0	0	NULL
-on	Amazon	/`@m3z3n/	亚马逊	0	0	NULL
-on	giant	//	巨大的、巨头	0	0	NULL
-on	cross-border	//	跨越边境的	0	0	NULL
-on	ship	//	运输	0	0	NULL
-on	merchant	/`m3:CH3nt/	批发商	0	0	NULL
+on	in a sense	//	某种意义上	3	0	NULL
+on	cannibalize	/`k@nib3laiz/	竞争、蚕食	0	1	NULL
+on	homage	//	崇敬	1	1	NULL
+on	appropriation	/3,pr3upri`eiSHn/	挪用、滥用	1	0	NULL
+on	stake	//	赌注	1	0	NULL
+on	ironic	/ai`ronik/	讽刺的	1	0	NULL
+on	Saga	/`sa:g3/	长篇故事	1	0	NULL
+on	post-credit	//	片尾的、彩蛋	1	1	credit, 演职员表
+on	commerce	/`kom3:s/	商务	1	0	NULL
+on	retreat	/ri`tri:t/	撤退	4	0	NULL
+on	Amazon	/`@m3z3n/	亚马逊	2	0	NULL
+on	giant	//	巨大的、巨头	1	0	NULL
+on	cross-border	//	跨越边境的	1	1	NULL
+on	ship	//	运输	2	0	NULL
+on	merchant	/`m3:CH3nt/	批发商	4	0	NULL
 on	portal	/`po:tl/	门户网站	0	0	NULL
 on	setback	//	挫折	0	0	NULL
-on	retail	/`ri:teil/	零售	0	0	NULL
-on	weather	//	经受住	0	0	NULL
-on	contend	/k3n`tend/	竞争	1	0	NULL
-on	go public	//	上市	0	0	NULL
-on	commitment	/k3`mitment/	投入、花费	0	0	NULL
+on	retail	/`ri:teil/	零售	1	0	NULL
+on	weather	//	经受住	2	0	NULL
+on	contend	/k3n`tend/	竞争	2	1	NULL
+on	go public	//	上市	1	0	NULL
+on	commitment	/k3`mitment/	投入、花费	1	2	NULL
 on	cater to	/`keit3/	迎合	1	0	NULL
-on	Thames	/temz/	泰晤士	0	0	NULL
-on	escalator	/`esk3leit3/	扶梯	3	0	NULL
-on	accommodation	/3kom3deiSHn/	住宿	0	0	NULL
-on	Mod cons	//	现代化家电	0	0	Modern conditions
-on	allergic	/3`l3:Gik/	过敏的	1	0	NULL
-on	bay	//	凸的	0	0	NULL
+on	Thames	/temz/	泰晤士	1	1	NULL
+on	escalator	/`esk3leit3/	扶梯	4	0	NULL
+on	accommodation	/3kom3deiSHn/	住宿	0	1	NULL
+on	Mod cons	//	现代化家电	2	0	Modern conditions
+on	allergic	/3`l3:Gik/	过敏的	4	0	NULL
+on	bay	//	凸的	4	0	NULL
 on	sink	//	水槽	1	0	NULL
-on	heating	//	暖气	0	0	NULL
+on	heating	//	暖气	2	0	NULL
 on	thatched	/S@CHt/	茅草覆盖的	1	0	NULL
-on	cottage	//	村舍	1	0	NULL
-on	roof	//	屋顶	1	0	NULL
+on	cottage	//	村舍	3	0	NULL
+on	roof	//	屋顶	3	0	NULL
 on	bungalow	/bangg3l3u/	平房	0	0	NULL
-on	lounge	/launG/	客厅	1	0	NULL
-on	lodger	//	房客	1	0	NULL
-on	dairy	/`de3ri/	奶制品	1	0	NULL
-on	yogurt	//	酸奶	0	0	NULL
-on	free-range	//	自由放养的	1	0	NULL
-on	soya	/`soi3/	大豆	0	0	soya beans
-on	pub	//	酒吧	0	0	相当于中国餐馆
+on	lounge	/launG/	客厅	4	0	NULL
+on	lodger	//	房客	2	0	NULL
+on	dairy	/`de3ri/	奶制品	3	0	NULL
+on	yogurt	//	酸奶	1	0	NULL
+on	free-range	//	自由放养的	3	0	NULL
+on	soya	/`soi3/	大豆	1	0	soya beans
+on	pub	//	酒吧	1	0	相当于中国餐馆
 on	lemonade	/lem3`neid/	柠檬水	0	0	NULL
-on	pint	/paint/	品脱	0	0	西方酒的单位
-on	litre	/`li:t3/	公升	1	0	crisp
-on	crisp	//	薯片	0	0	通常复数
-on	flavour	//	口味	0	0	NULL
+off	pint	/paint/	品脱	5	0	西方酒的单位
+on	litre	/`li:t3/	公升	2	0	crisp
+on	crisp	//	薯片	1	1	通常复数
+on	flavour	//	口味	0	1	NULL
 on	prawn	/pro:n/	明虾	0	0	NULL
 on	cocktail	//	鸡尾酒	1	0	开胃食品
-on	roast	//	烤	0	0	NULL
-on	vinegar	/`vinig3/	醋	0	0	NULL
-on	minced	//	切碎的	2	0	mince, vt.
-on	garlic	/`ga:lik/	大蒜	0	0	garlic cloves
-on	clove	/kl3uv/	丁香	0	0	garlic cloves
-on	sage	/seiG/	圣人、鼠尾草	0	0	NULL
-on	thyme	/taim/	百里香	0	0	NULL
-on	flour	//	面粉	0	0	not flower
-on	mashed	/m@SHt/	捣碎的	0	0	mash, vt.
+on	roast	//	烤	2	0	NULL
+on	vinegar	/`vinig3/	醋	1	2	NULL
+on	minced	//	切碎的	4	0	mince, vt.
+on	garlic	/`ga:lik/	大蒜	1	0	garlic cloves
+on	clove	/kl3uv/	丁香	1	2	garlic cloves
+on	sage	/seiG/	圣人、鼠尾草	3	0	NULL
+on	thyme	/taim/	百里香	1	1	NULL
+on	flour	//	面粉	1	0	not flower
+on	mashed	/m@SHt/	捣碎的	2	0	mash, vt.
 on	rosemary	//	迷迭香	0	0	NULL
 on	handout	//	散发材料	0	0	NULL
-on	melt	//	融化	0	0	NULL
-on	stir	//	搅拌	0	0	NULL
-on	blended	//	充分混合的	0	0	blend, vt.
+on	melt	//	融化	1	0	NULL
+on	stir	//	搅拌	2	0	NULL
+on	blended	//	充分混合的	4	0	blend, vt.
 on	broth	/broS/	肉汤	0	0	gravy
 on	gravy	//	肉汁	0	0	NULL
-on	casserole	/`k@s3r3ul/	有盖的	0	1	bubbling
-on	bubbling	//	萌芽的	0	0	沸腾的
-on	mileage	/`mailiG/	英里数	0	0	NULL
-on	petrol	//	汽油	0	0	NULL
-on	tank	//	水槽	0	0	NULL
-on	in advance	//	事先	1	0	NULL
-on	matinee	/`m@tinei/	午场	0	0	NULL
-on	balcony	//	阳台	0	0	NULL
-on	helmet	//	头盔	0	0	NULL
-on	lawn	/lo:n/	草坪	1	0	NULL
-on	mower	/m3u3/	割草机	0	0	oak
-on	oak	/3uk/	橡树	0	0	NULL
-on	bargain	//	廉价品	0	0	NULL
+on	casserole	/`k@s3r3ul/	有盖的	0	2	bubbling
+on	bubbling	//	萌芽的	2	1	沸腾的
+on	mileage	/`mailiG/	英里数	0	1	NULL
+on	petrol	//	汽油	2	0	NULL
+on	tank	//	水槽	3	0	NULL
+on	in advance	//	事先	2	0	NULL
+on	matinee	/`m@tinei/	午场	0	1	NULL
+on	balcony	//	阳台	2	0	NULL
+on	helmet	//	头盔	3	0	NULL
+off	lawn	/lo:n/	草坪	5	0	NULL
+off	mower	/m3u3/	割草机	5	0	oak
+on	oak	/3uk/	橡树	1	0	NULL
+on	bargain	//	廉价品	1	0	NULL
 on	ornament	//	饰品	0	0	NULL
-on	lavender	/`l@v3nd3/	薰衣草	0	0	NULL
-on	pine	//	菠萝	0	0	NULL
-on	en-suite	/on`sui:t/	套房	0	0	NULL
+on	lavender	/`l@v3nd3/	薰衣草	1	1	NULL
+on	pine	//	菠萝	1	0	NULL
+on	en-suite	/on`sui:t/	套房	1	0	NULL
 on	B&B	//	Bed and Breakfast	0	0	NULL
-on	porter	//	服务生	0	0	NULL
-on	reception	/risepSHn/	前台、接待	0	0	NULL
-on	canal	/k3:`n@l/	运河	0	0	NULL
+on	porter	//	服务生	1	1	NULL
+on	reception	/risepSHn/	前台、接待	2	0	NULL
+on	canal	/k3:`n@l/	运河	0	2	NULL
 on	sightseeing	//	四处看看	0	0	NULL
-on	senior	//	年长的	0	0	高级的
-on	excursion	//	课外活动	0	0	NULL
-on	entertainment	//	娱乐	0	0	NULL
-on	advert	/`@dv3:t/	广告	0	0	NULL
+on	senior	//	年长的	3	1	高级的
+on	excursion	//	课外活动	1	0	NULL
+on	entertainment	//	娱乐	2	0	NULL
+on	advert	/`@dv3:t/	广告	2	1	NULL
 on	retake	/ri`teik/	重考	0	0	exam retake
-on	merit	//	优点	0	0	NULL
-on	resit	//	补考	0	1	NULL
+on	merit	//	优点	2	0	NULL
+on	resit	//	补考	3	1	NULL
 on	conveyor	/k3n`vei3/	传送机	0	0	NULL
-on	belt	//	带子	0	1	安全带
-on	lever	/`li:v3/	杠杆	0	0	NULL
-on	lid	//	盖子	0	0	NULL
-on	tin	//	罐子	0	0	NULL
-on	wage	//	薪水	1	0	wages
-on	filth	//	肮脏	0	0	NULL
-on	muck	//	污物	0	0	NULL
-on	sty	//	猪圈	0	0	NULL
+on	belt	//	带子	2	1	安全带
+on	lever	/`li:v3/	杠杆	2	0	NULL
+on	lid	//	盖子	1	1	NULL
+on	tin	//	罐子	1	0	NULL
+off	wage	//	薪水	5	0	wages
+on	filth	//	肮脏	3	1	NULL
+on	muck	//	污物	1	0	NULL
+on	sty	//	猪圈	1	1	NULL
 on	nude	//	裸体的	0	0	NULL
-on	very still	//	一直	0	0	NULL
+on	very still	//	一直	1	0	NULL
 on	rot	//	腐烂	2	0	NULL
-on	Asian	/`eiSHn/	亚洲的	1	0	NULL
+off	Asian	/`eiSHn/	亚洲的	5	0	NULL
 on	pasta	/`p@st3/	意大利面	1	0	NULL
 on	mineral	//	矿物、矿物的	0	0	mineral water
-on	skim	//	掠过、去除、脱脂的	0	1	skimmed milk
+on	skim	//	掠过、去除、脱脂的	3	1	skimmed milk
 on	fitness	//	适应、健身	0	0	fitness center
-on	sauna	/`so:n3/	桑拿	0	0	NULL
-on	squash	//	挤压、回力球	1	0	NULL
+on	sauna	/`so:n3/	桑拿	0	2	NULL
+on	squash	//	挤压、回力球	3	0	NULL
 on	court	/ko:t/	法院、场地	0	0	squash court
-on	aerobics	/e3`r3ubiks/	有氧运动	0	1	aerobic, adj.
-on	karate	/k3`ra:ti/	空手道	0	0	NULL
-on	chemist`s	//	药店	0	0	NULL
-on	prescription	//	处方	1	0	NULL
+on	aerobics	/e3`r3ubiks/	有氧运动	2	1	aerobic, adj.
+on	karate	/k3`ra:ti/	空手道	1	0	NULL
+on	chemist`s	//	药店	1	0	NULL
+on	prescription	//	处方	3	0	NULL
 on	ointment	//	药膏	0	0	NULL
-on	slip	//	纸片	0	0	NULL
-on	GP	//	普通开业医生	0	0	General Practitioner
-on	Practice	//	诊所	0	0	NULL
-on	can`t make it	//	无法做...	0	0	NULL
-on	homestay	//	当地居民家住	0	0	国外访问时
-on	fan	//	扇子	0	0	NULL
-on	haven	/`heivn/	避风港	0	0	NULL
-on	heaven	/`hev3n/	天堂	0	0	NULL
-on	glittering	//	闪亮的	0	1	glitter, vi., n.
-on	posh	//	时髦的	0	0	NULL
-on	estate	/i`steit/	不动产	0	0	NULL
-on	fastener	/`fa:s3n3/	拉链	0	0	NULL
-on	embankment	/im`b@nkm3nt/	路堤、堤防	0	0	NULL
-on	souvenir	/,su:v3`ni3/	纪念品	0	0	NULL
-on	fasten	/`fa:s3n/	固定、扣紧	1	0	NULL
-on	charity	/`CH@riti/	慈善	0	0	NULL
-on	till	//	抽屉	0	0	NULL
-on	stapler	/steipl3/	订书机	1	0	NULL
-on	tatto	/t@`t3u/	纹身	0	0	NULL
-on	cotton	/`kot3n/	棉花	0	0	NULL
-on	sleeve	//	袖子	0	0	NULL
-on	suntanned	/san`t@nd/	晒黑的	0	0	NULL
-on	note	//	纸币面额	0	0	NULL
-on	residence	/rezid3ns/	居住地、住宅	0	1	hall of residence
+on	slip	//	纸片	0	1	NULL
+on	GP	//	普通开业医生	2	0	General Practitioner
+on	Practice	//	诊所	0	1	NULL
+on	can`t make it	//	无法做...	2	0	NULL
+on	homestay	//	当地居民家住	0	1	国外访问时
+on	fan	//	扇子	2	0	NULL
+on	haven	/`heivn/	避风港	2	0	NULL
+on	heaven	/`hev3n/	天堂	3	0	NULL
+on	glittering	//	闪亮的	1	1	glitter, vi., n.
+on	posh	//	时髦的	2	0	NULL
+on	estate	/i`steit/	不动产	2	0	NULL
+on	fastener	/`fa:s3n3/	拉链	1	1	NULL
+on	embankment	/im`b@nkm3nt/	路堤、堤防	0	1	NULL
+on	souvenir	/,su:v3`ni3/	纪念品	0	2	NULL
+on	fasten	/`fa:s3n/	固定、扣紧	3	0	NULL
+on	charity	/`CH@riti/	慈善	1	0	NULL
+on	till	//	抽屉	1	0	NULL
+on	stapler	/steipl3/	订书机	3	0	NULL
+on	tatto	/t@`t3u/	纹身	2	0	NULL
+on	cotton	/`kot3n/	棉花	1	0	NULL
+on	sleeve	//	袖子	1	0	NULL
+on	suntanned	/san`t@nd/	晒黑的	0	1	NULL
+on	note	//	纸币面额	3	0	NULL
+on	residence	/rezid3ns/	居住地、住宅	2	1	hall of residence
 on	dormitory	//	宿舍	1	0	NULL
-on	pamphlet	//	小册子	0	0	NULL
-on	centimeter	//	厘米	0	0	cm
-on	sail	//	航行	1	0	sailing boat
-on	palm	/pa:m/	手掌	0	0	棕榈树
-on	windsurfer	//	帆板	0	0	NULL
+on	pamphlet	//	小册子	1	0	NULL
+on	centimeter	//	厘米	2	1	cm
+on	sail	//	航行	2	1	sailing boat
+on	palm	/pa:m/	手掌	3	0	棕榈树
+off	windsurfer	//	帆板	5	0	NULL
 on	van	//	厢式货车	0	0	NULL
-on	cabin	//	小屋	0	0	NULL
-on	veranda	/v3`r@nd3/	走廊	0	0	NULL
-on	extraordinary	/ik`stro:d3nri/	非凡的、离奇的	0	0	extraordinarily
-on	yard	//	码	0	0	NULL
+on	cabin	//	小屋	2	0	NULL
+on	veranda	/v3`r@nd3/	走廊	0	1	NULL
+on	extraordinary	/ik`stro:d3nri/	非凡的、离奇的	0	1	extraordinarily
+on	yard	//	码	1	0	NULL
 on	paw	//	爪子	1	0	NULL
 on	cling	/kling/	粘	1	0	clung, ed.
-on	possession	/p3`zeSH3n/	拥有、领地	0	0	财产
+on	possession	/p3`zeSH3n/	拥有、领地	2	0	财产
 on	somehow	//	以某种方式	0	0	NULL
-on	disturb	//	打扰、使不安	0	0	disturbing
-on	spot	//	看出、发现	0	0	NULL
-on	accumulate	/e`kju:mjuleit/	积累	0	0	NULL
+on	disturb	//	打扰、使不安	3	0	disturbing
+on	spot	//	看出、发现	2	0	NULL
+on	accumulate	/3`kju:mjuleit/	积累	1	0	NULL
 on	oblige	/3`blaiG/	使...感到必须	0	0	迫使、施恩于
-on	hunt	//	寻找	0	0	NULL
-on	vicar	//	牧师	0	0	NULL
-on	raise	//	筹	0	0	提高、升起
-on	torch	//	火把、手电筒	0	0	NULL
-on	grocer	//	杂货店	0	0	杂货店主
-on	archaeologist	/,a:ki`ol3Gist/	考古学家	1	0	NULL
+on	hunt	//	寻找	2	0	NULL
+on	vicar	//	牧师	0	1	NULL
+on	raise	//	筹	1	2	提高、升起
+on	torch	//	火把、手电筒	1	1	NULL
+on	grocer	//	杂货店	2	0	杂货店主
+on	archaeologist	/,a:ki`ol3Gist/	考古学家	2	1	NULL
 on	promontory	/`prom3nt3ri/	海角	0	1	NULL
-on	prosperous	/`prosp3r3s/	繁荣的	0	0	经济上的
-on	enjoy	//	享有	0	0	NULL
-on	civilization	/,siv3l-ai`zeiSH3n/	文明	0	0	NULL
-on	storey	/`sto:ri/	楼层	0	0	NULL
-on	drainage	/`dreiniG/	排水	0	0	NULL
-on	worship	/`w3:SHip/	崇拜	0	0	NULL
-on	sacred	/`serkrid/	宗教的、神圣的	0	0	NULL
-on	hip	//	臀部	0	0	hips
-on	full-length	//	拖地长的	0	0	NULL
-on	collar	/`kol3/	衣领	0	0	NULL
-on	sacrifice	/`s@kr3fais/	牺牲	0	0	NULL
-on	privilege	/`priviliG/	好处	0	0	NULL
+on	prosperous	/`prosp3r3s/	繁荣的	0	1	经济上的
+on	enjoy	//	享有	2	0	NULL
+on	civilization	/,siv3l-ai`zeiSH3n/	文明	0	1	NULL
+on	storey	/`sto:ri/	楼层	1	0	NULL
+on	drainage	/`dreiniG/	排水	1	1	NULL
+on	worship	/`w3:SHip/	崇拜	0	1	NULL
+on	sacred	/`serkrid/	宗教的、神圣的	2	3	NULL
+on	hip	//	臀部	1	0	hips
+on	full-length	//	拖地长的	0	2	NULL
+on	collar	/`kol3/	衣领	1	0	NULL
+on	sacrifice	/`s@kr3fais/	牺牲	1	1	NULL
+on	privilege	/`priviliG/	好处	0	1	NULL
 on	corporation	/,ko:p3`reiSH3n/	公司	0	0	NULL
-on	overalls	//	工作服	0	0	NULL
-on	be referred to	//	被称为	0	0	NULL
-on	fellow	//	同事、会员	0	0	NULL
-on	arrest	//	逮捕	0	0	NULL
-on	statistics	/st3`tistiks/	统计数字	0	0	NULL
+on	overalls	//	工作服	2	0	NULL
+on	be referred to as	//	被称为	0	1	NULL
+on	fellow	//	同事、会员	1	0	NULL
+on	arrest	//	逮捕	2	1	NULL
+on	statistics	/st3`tistiks/	统计数字	3	0	NULL
 on	reluctant	/ri`lakt3nt/	不情愿的	0	0	NULL
 on	smash	//	使破碎	0	0	smash-and-grab
 on	grab	//	夺取	0	0	smash-and-grab
 on	arcade	/a:`keid/	拱廊的街道	0	0	两旁设商店
-on	jewellery	/`Gu:3lri/	珠宝	0	0	NULL
-on	necklace	/`nek-l3s/	项链	1	0	NULL
+on	jewellery	/`Gu:3lri/	珠宝	1	0	NULL
+on	necklace	/`nek-l3s/	项链	2	0	NULL
 on	velvet	/`velvit/	天鹅绒	0	0	NULL
-on	headlight	//	汽车前灯	0	0	NULL
-on	blare	/ble3/	吼叫	0	0	NULL
-on	raid	//	偷袭	0	0	NULL
-on	scramble	//	爬行	0	1	NULL
+on	headlight	//	汽车前灯	3	0	NULL
+on	blare	/ble3/	吼叫	0	2	NULL
+on	raid	//	偷袭	3	1	NULL
+on	scramble	//	爬行	0	2	NULL
 on	fantastic	//	非常大的	0	0	奇异的、古怪的
-on	ashtray	/`@SHtrei/	烟灰缸	0	0	NULL
-on	gaze	//	凝视	0	0	NULL
-on	horn	//	喇叭	0	0	NULL
-on	roar	//	咆哮	0	0	NULL
-on	mutilate	/`mju:tileit/	使残缺不全	0	0	mulitated, adj.
-on	chew	/CHu:/	咀嚼	0	0	chew up
-on	fiance	/fi`onsei/	未婚夫	0	0	NULL
-on	despair	//	绝望	0	0	n., vi.
-on	dismay	//	沮丧	0	0	n., vi.
-on	so long as	//	只要	0	0	NULL
-on	monastery	/`mon3stri/	寺院	0	0	NULL
-on	pass	//	关隘	0	0	NULL
-on	rash	//	轻率的	0	0	rashly
-on	monk	//	和尚	0	0	NULL
-on	Easter	//	复活节	0	0	NULL
-on	tunnel	/`tanl/	隧道	0	0	NULL
-on	wander	/`wond3/	漫步、徘徊	0	0	NULL
-on	Switzerland	/`swits3l3nd/	瑞士	0	0	NULL
-on	fascinate	/`f@sineit/	迷住	0	0	NULL
-on	affectionate	/3`fekSHnit/	柔情的	0	0	充满深情的
-on	submissive	/s3b`misiv/	顺从的	0	0	NULL
+on	ashtray	/`@SHtrei/	烟灰缸	1	1	NULL
+on	gaze	//	凝视	0	1	NULL
+on	horn	//	喇叭	0	1	NULL
+on	roar	//	咆哮	1	1	NULL
+on	mutilate	/`mju:tileit/	使残缺不全	1	1	mulitated, adj.
+on	chew	/CHu:/	咀嚼	2	0	chew up
+on	fiance	/fi`onsei/	未婚夫	2	0	NULL
+on	despair	//	绝望	1	0	n., vi.
+on	dismay	//	沮丧	3	0	n., vi.
+on	so long as	//	只要	3	0	NULL
+on	monastery	/`mon3stri/	寺院	2	1	NULL
+on	pass	//	关隘	2	1	NULL
+on	rash	//	轻率的	0	1	rashly
+on	monk	//	和尚	2	0	NULL
+on	Easter	//	复活节	3	0	NULL
+on	tunnel	/`tanl/	隧道	3	0	NULL
+on	wander	/`wond3/	漫步、徘徊	1	1	NULL
+on	Switzerland	/`swits3l3nd/	瑞士	1	4	NULL
+on	fascinate	/`f@sineit/	迷住	0	1	NULL
+on	affectionate	/3`fekSHnit/	柔情的	0	1	充满深情的
+on	submissive	/s3b`misiv/	顺从的	1	1	NULL
 on	feline	/`fi:lain/	猫的	0	0	NULL
-on	high-rise	//	高层的	0	0	NULL
+on	high-rise	//	高层的	0	2	NULL
 on	windowsill	//	窗栏	0	0	NULL
-on	paratrooper	/`p@r3,tru:p3/	伞兵	0	0	parachute
-on	squirrel	/`skwir3l/	松鼠	0	0	NULL
-on	air-resistance	//	空气阻力	0	0	NULL
-on	resistence	/ri`zist3ns/	阻力、反抗	0	1	resistent, adj.
+on	paratrooper	/`p@r3,tru:p3/	伞兵	2	1	parachute
+on	squirrel	/`skwir3l/	松鼠	1	1	NULL
+on	air-resistance	//	空气阻力	1	1	NULL
+on	resistence	/ri`zist3ns/	阻力、反抗	1	1	resistent, adj.
 on	suspicious	/s3`spiSH3s/	怀疑的	0	0	NULL
-on	a good deal of	//	大量的	0	0	NULL
-on	colossal	/k3`los3l/	庞大的	0	0	NULL
-on	watertight	//	不漏水的	0	0	NULL
-on	compartment	//	密封舱	0	0	NULL
-on	flood	//	充满水	0	0	NULL
-on	liner	//	班船	0	0	NULL
-on	voyage	/`voi-iG/	航行	0	0	NULL
-on	lookout	//	瞭望员	0	0	NULL
+on	a good deal of	//	大量的	3	2	NULL
+on	colossal	/k3`los3l/	庞大的	1	0	NULL
+on	watertight	//	不漏水的	0	1	NULL
+on	compartment	//	密封舱	2	0	NULL
+on	flood	//	充满水	1	0	NULL
+on	liner	//	班船	1	0	NULL
+on	voyage	/`voi-iG/	航行	0	1	NULL
+on	lookout	//	瞭望员	0	1	NULL
 on	collision	/k3`liR3n/	碰撞	0	0	NULL
-on	narrowly	/`n@r3uli/	刚刚、勉强地	0	0	NULL
-on	slight	//	轻微地	0	0	NULL
-on	tremble	//	震颤	0	0	NULL
-on	faint	/feint/	轻微的	0	0	NULL
-on	plunge	//	投入、跳入	0	1	NULL
-on	crew	//	全体船员	0	0	NULL
-on	immense	/i`mens/	巨大的	1	0	NULL
-on	rise	//	上升、出现	0	0	使浮出水面
-on	raise	//	提高	0	0	NULL
-on	arise	//	出现、上升	0	0	vi.
+on	narrowly	/`n@r3uli/	刚刚、勉强地	0	1	NULL
+on	slight	//	轻微地	0	1	NULL
+on	tremble	//	震颤	1	3	NULL
+on	faint	/feint/	轻微的	1	2	NULL
+on	plunge	//	投入、跳入	0	3	NULL
+on	crew	//	全体船员	3	0	NULL
+on	immense	/i`mens/	巨大的	2	0	NULL
+on	rise	//	上升、出现	1	0	使浮出水面
+on	raise	//	提高	0	1	NULL
+on	arise	//	出现、上升	3	0	vi.
 on	order	//	命令	0	0	NULL
-on	guilty	/`gilti/	犯罪的、违法的	0	0	NULL
-on	hardened	//	有经验的	0	0	NULL
-on	smuggler	//	走私者	0	0	NULL
+on	guilty	/`gilti/	犯罪的、违法的	1	2	NULL
+on	hardened	//	有经验的	0	1	NULL
+on	smuggler	//	走私者	1	0	NULL
 on	officious	//	爱管闲事的	1	1	NULL
-on	pounce	//	抓住	0	0	NULL
+on	pounce	//	抓住	0	1	NULL
 on	sarcastically	/sa:`k@stikli/	讽刺地	0	0	NULL
 on	exempt	//	被免除的	0	0	NULL
-on	duty	//	税	0	1	NULL
+on	duty	//	税	0	2	NULL
 on	gel	//	凝胶	0	0	NULL
-on	unscrew	//	拧开	0	0	screw, 拧
-on	nostril	/`nostril/	鼻孔	2	0	NULL
-on	chalk	/CHo:k/	粉笔	0	0	NULL
-on	cap	//	盖子	0	0	NULL
+on	unscrew	//	拧开	3	1	screw, 拧
+on	nostril	/`nostril/	鼻孔	4	0	NULL
+on	chalk	/CHo:k/	粉笔	1	0	NULL
+off	cap	//	盖子	5	0	NULL
 on	mess	//	混乱	0	0	NULL
-on	desert	/`dez3t/	荒岛	0	0	NULL
-on	paradise	//	天堂、乐土	0	0	NULL
+on	desert	/`dez3t/	荒岛	1	0	NULL
+on	paradise	//	天堂、乐土	2	1	NULL
 on	wretched	/`reCHid/	可怜的	0	0	NULL
 on	coral	/`kor3l/	珊瑚	0	1	NULL
-on	dinghy	/`dinggi/	救生筏	0	0	NULL
-on	spear	/spi3/	矛	0	0	spear-gun, 捕鱼枪
+on	dinghy	/`dinggi/	救生筏	1	3	NULL
+on	spear	/spi3/	矛	2	0	spear-gun, 捕鱼枪
 on	lobster	//	龙虾	1	0	NULL
-on	genuinely	/`Genjuinli/	由衷地	0	0	NULL
-on	costume	/`kostjum/	化装服	0	0	NULL
-on	sheet	//	床单	0	0	NULL
-on	metre	/`mi:t3/	电表	0	0	NULL
-on	pace	//	一步	0	0	NULL
-on	flee	//	逃走	0	0	NULL
-on	slam	//	砰地关上	0	0	NULL
-on	gangster	/`g@ngst3/	歹徒、强盗	1	0	NULL
-on	promptly	//	准时地	0	0	NULL
-on	remarkable	//	不寻常的	0	0	NULL
-on	band	//	帮、团伙	0	1	NULL
-on	city-state	//	城邦	0	0	NULL
-on	prince	//	君主、诸侯	0	0	NULL
-on	funeral	/`fju:n3r3l/	葬礼	0	0	NULL
-on	dedicate	//	奉献	0	0	NULL
-on	valiant	/`v@lj3nt/	英勇的	0	0	NULL
-on	notable	//	著名的	1	0	NULL
-on	rattle	//	咯咯作响	0	0	NULL
+on	genuinely	/`Genjuinli/	由衷地	1	1	NULL
+on	costume	/`kostjum/	化装服	1	0	NULL
+on	sheet	//	床单	2	0	NULL
+on	metre	/`mi:t3/	电表	1	2	NULL
+on	pace	//	一步	2	0	NULL
+on	flee	//	逃走	1	1	NULL
+on	slam	//	砰地关上	1	0	NULL
+on	gangster	/`g@ngst3/	歹徒、强盗	5	1	NULL
+on	promptly	//	准时地	4	0	NULL
+on	remarkable	//	不寻常的	1	2	NULL
+on	band	//	帮、团伙	0	4	NULL
+on	city-state	//	城邦	0	1	NULL
+on	prince	//	君主、诸侯	2	1	NULL
+on	funeral	/`fju:n3r3l/	葬礼	2	0	NULL
+on	dedicate	//	奉献	0	2	NULL
+on	valiant	/`v@lj3nt/	英勇的	0	1	NULL
+on	notable	//	著名的	2	2	NULL
+on	rattle	//	咯咯作响	2	0	NULL
 on	thrifty	//	节俭的	0	0	NULL
-on	thrifty	//	节俭的	0	0	NULL
-on	bounce	//	弹起、跳起	0	0	NULL
-on	pavement	//	人行道	1	0	NULL
-on	stick	//	卡住、不能动弹	1	0	stuck
+on	thrifty	//	节俭的	1	0	NULL
+on	bounce	//	弹起、跳起	2	1	NULL
+on	pavement	//	人行道	3	0	NULL
+on	stick	//	卡住、不能动弹	2	0	stuck
 on	brigade	/bri`geid/	旅，消防队	0	0	NULL
-on	grease	//	润滑油	0	0	NULL
-on	rub	//	摩擦	0	0	NULL
-on	harsh	//	刺激的、严重的	0	0	令人不快的
+on	grease	//	润滑油	0	1	NULL
+on	rub	//	摩擦	3	1	NULL
+on	harsh	//	刺激的、严重的	0	1	令人不快的
 on	brutal	//	残忍的	0	0	直截了当的
-on	astronaut	/`@str3no:t/	宇航员	0	0	NULL
-on	guinea	/`gini/	豚鼠、白老鼠	0	0	几内亚
-on	guinea pig	//	实验对象	1	0	NULL
-on	orbit	//	轨道	0	0	天体围绕恒星
-on	celebrated	//	著名的	0	0	庆祝, vt.
-on	physiological	/,fizi3`lo:Gikl/	生理学的	0	0	NULL
-on	chromosomal	/,kr3um3`s3um3l/	染色体的	0	0	NULL
-on	sojourn	/`s3uG3:n/	逗留、停留	1	0	NULL
+on	astronaut	/`@str3no:t/	宇航员	1	1	NULL
+on	guinea	/`gini/	豚鼠、白老鼠	3	0	几内亚
+on	guinea pig	//	实验对象	2	0	NULL
+on	orbit	//	轨道	1	2	天体围绕恒星
+on	celebrated	//	著名的	0	1	庆祝, vt.
+on	physiological	/,fizi3`lo:Gikl/	生理学的	0	2	NULL
+on	chromosomal	/,kr3um3`s3um3l/	染色体的	2	0	NULL
+on	sojourn	/`s3uG3:n/	逗留、停留	2	2	NULL
 on	epigenetics	/,epiG3`netiks/	表观遗传学	0	0	NULL
-on	revert to	//	回到、恢复	0	0	NULL
+on	revert to	//	回到、恢复	2	1	NULL
 on	telomere	/`tel3mi3/	端粒	0	0	NULL
-on	fountain	/`faunt3n/	喷泉、源泉	0	0	NULL
-on	radiation	/reidi`eiSHn/	辐射	0	0	NULL
+on	fountain	/`faunt3n/	喷泉、源泉	0	1	NULL
+on	radiation	/reidi`eiSHn/	辐射	0	1	NULL
 on	exposure	//	接触、面临、遭受	0	0	radiation exposure
-on	cardiovascular	/,ka:di3u`v@skjul3/	心血管的	0	0	cardio心脏的, vascular血管的
-on	grain	//	谷物	1	0	whole grains, 全谷物
+on	cardiovascular	/,ka:di3u`v@skjul3/	心血管的	0	1	cardio心脏的, vascular血管的
+off	grain	//	谷物	5	0	whole grains, 全谷物
 on	shave off	//	削减	0	0	shave sth. off sth.
-on	mortality	/mo:`t@l3ti/	死亡率	0	0	mortal, 致命的
+on	mortality	/mo:`t@l3ti/	死亡率	1	2	mortal, 致命的
 on	thereof	//	of that	0	0	foods or lack thereof
-on	epidemiologist	/,epi,di:mi`o:l3Gist/	流行病学家	0	0	NULL
+on	epidemiologist	/,epi,di:mi`o:l3Gist/	流行病学家	0	1	NULL
 on	be attributed to	//	归因于	1	0	NULL
-on	sodium	/`s3udi3m/	钠	0	0	soda苏打, ium金属元素
+on	sodium	/`s3udi3m/	钠	2	1	soda苏打, ium金属元素
 on	make sense	//	说得通	0	0	NULL
 on	dietary	/`dai3teri/	饮食有关的	0	0	dietary habits
-on	exodus	/`eks3d3s/	退出、离开	0	0	大批人的
-on	firm	//	公司	1	0	NULL
-on	woo	/wu:/	争取	0	0	求偶
+on	exodus	/`eks3d3s/	退出、离开	1	1	大批人的
+on	firm	//	公司	4	0	NULL
+on	woo	/wu:/	争取	0	2	求偶
 on	break	//	假期	0	0	smog break, 雾霾假
-on	bonus	//	奖金、红利	1	0	NULL
-on	inventive	//	有创造性的	0	0	NULL
+on	bonus	//	奖金、红利	3	1	NULL
+on	inventive	//	有创造性的	1	1	NULL
 on	perk	//	补贴	0	0	工作享有的
-on	desperate	/`desp3r3t/	令人绝望的	0	0	NULL
-on	bid	//	尝试、努力	0	0	NULL
+on	desperate	/`desp3r3t/	令人绝望的	0	1	NULL
+on	bid	//	尝试、努力	0	1	NULL
 on	lure	/lu3/	引诱、诱惑	0	0	NULL
-on	toxic	/`toksik/	有毒的	0	0	NULL
-on	engulf	/in`galf/	吞没	0	0	en进入, gulf深渊
-on	concern	/k3n`s3:n/	关心、忧虑	0	0	NULL
-on	put off	//	使失去兴趣	0	0	NULL
-on	retain	/ri`tein/	保持	0	0	NULL
-on	expertise	//	专业知识	0	0	NULL
-on	levels of	//	各种层次	0	0	NULL
-on	pose	//	造成、引起	0	0	NULL
-on	on top of	//	除了	0	0	NULL
-on	incentive	//	刺激、动力	0	0	NULL
+on	toxic	/`toksik/	有毒的	3	0	NULL
+on	engulf	/in`galf/	吞没	4	0	en进入, gulf深渊
+on	concern	/k3n`s3:n/	关心、忧虑	1	0	NULL
+on	put off	//	使失去兴趣	0	1	NULL
+on	retain	/ri`tein/	保持	0	1	NULL
+on	expertise	//	专业知识	2	0	NULL
+on	levels of	//	各种层次	1	0	NULL
+on	pose	//	造成、引起	0	2	NULL
+on	on top of	//	除了	0	1	NULL
+on	incentive	//	刺激、动力	0	1	NULL
 on	allowance	//	津贴、补助	0	0	NULL
 on	incorporate	//	包含	0	0	NULL
-on	executive	/ig`zekjutiv/	行政的、执行者	0	0	NULL
-on	CV	//	curriculum vitae	1	1	课程+血液=简历
-on	mafia	/`ma:fi3/	黑手党	0	0	NULL
-on	informant	/in`fo:m3nt/	线人	1	0	NULL
-on	alias	/`eili3s/	化名	0	0	NULL
-on	agent	//	探员	0	0	FBI
+on	executive	/ig`zekjutiv/	行政的、执行者	2	0	NULL
+on	CV	//	curriculum vitae	3	1	课程+血液=简历
+on	mafia	/`ma:fi3/	黑手党	2	0	NULL
+on	informant	/in`fo:m3nt/	线人	3	0	NULL
+off	alias	/`eili3s/	化名	6	0	NULL
+on	agent	//	探员	2	0	FBI
 on	infiltrate	//	潜入、渗透	0	0	NULL
-on	caravan	/`k@r3v@n/	房车	0	0	NULL
-on	cartel	/ka:`tel/	同业联盟	0	0	drug cartel, 贩毒集团
-on	narco	//	毒枭	0	0	西班牙语
-on	witness	//	证人、目击	0	0	state witness
-on	state witness	//	污点证人	0	0	NULL
+on	caravan	/`k@r3v@n/	房车	2	0	NULL
+on	cartel	/ka:`tel/	同业联盟	0	2	drug cartel, 贩毒集团
+on	narco	//	毒枭	1	2	西班牙语
+on	witness	//	证人、目击	2	0	state witness
+on	state witness	//	污点证人	2	1	NULL
 on	victim	//	受害者	0	0	NULL
-on	judicial	/Gu`diSHl/	司法的	0	0	NULL
+on	judicial	/Gu`diSHl/	司法的	1	0	NULL
 on	instrument	//	手段	0	0	NULL
 on	clan	/kl@n/	集团、群体、家族	0	0	mafia clan
 on	interior	/in`ti3:ri3/	内部、内部的	0	0	NULL
 on	ministry	//	部门	0	0	interior ministry
 on	collaborator	//	合作者	0	0	collaborate, v.
-on	start over	//	重新开始	1	0	NULL
-on	MP	/`pa:l3m3nt/	Member of Parliament	0	1	国会议员
-on	depression	//	抑郁	0	0	NULL
-on	mobster	/`ma:bst3/	歹徒	0	0	gangster
+on	start over	//	重新开始	3	0	NULL
+on	MP	/`pa:l3m3nt/	Member of Parliament	1	1	国会议员
+on	depression	//	抑郁	2	0	NULL
+on	mobster	/`ma:bst3/	歹徒	2	1	gangster
 on	at large	//	普遍地、在逃	0	0	in general
 on	prize	//	珍贵的	1	0	NULL
-on	tie	//	拴，系	0	0	NULL
-on	dye	//	染	1	0	NULL
-on	acquire	/3`kwai3/	获得	0	0	NULL
+on	tie	//	拴，系	1	0	NULL
+on	dye	//	染	3	0	NULL
+on	acquire	/3`kwai3/	获得	1	1	NULL
 on	fetch	//	取	0	0	NULL
 on	suspension	//	悬、吊	0	1	NULL
-on	agreeable	//	宜人的	0	0	NULL
-on	immortal	//	永生的、不朽的	0	0	NULL
+on	agreeable	//	宜人的	0	1	NULL
+on	immortal	//	永生的、不朽的	1	0	NULL
 on	cable	//	缆索	0	0	NULL
-on	concrete	/`kongkri:t/	混凝土	0	0	NULL
-on	length	//	根、段	0	0	NULL
-on	elegant	//	优美别致的	0	0	NULL
-on	faintly	//	微细地	0	0	faint, adj.
-on	by no means	//	绝不	0	0	NULL
-on	enormous	//	巨大的	0	0	NULL
-on	fulfill	//	满足	0	0	NULL
-on	sculpture	//	雕塑	0	0	NULL
+on	concrete	/`kongkri:t/	混凝土	1	0	NULL
+on	length	//	根、段	1	0	NULL
+on	elegant	//	优美别致的	2	0	NULL
+on	faintly	//	微细地	1	0	faint, adj.
+on	by no means	//	绝不	2	1	NULL
+on	enormous	//	巨大的	3	0	NULL
+on	fulfill	//	满足	1	0	NULL
+on	sculpture	//	雕塑	3	0	NULL
 on	gallery	//	美术馆	0	0	NULL
 on	oddly	//	古怪的	0	0	NULL
-on	attach	//	连、系	0	1	NULL
+on	attach	//	连、系	1	1	NULL
 on	sphere	//	球体	0	0	NULL
-on	magnetize	/`m@gnitaiz/	使磁化	0	0	NULL
-on	repel	//	排斥	0	0	NULL
+on	magnetize	/`m@gnitaiz/	使磁化	1	2	NULL
+on	repel	//	排斥	1	0	NULL
 on	flicker	//	闪烁	0	0	NULL
-on	emit	/i`mit/	放射	0	0	NULL
-on	flash	//	闪光	0	0	NULL
-on	prehistoric	/,pri:hi`storik/	史前的	1	0	老掉牙的
+on	emit	/i`mit/	放射	2	0	NULL
+on	flash	//	闪光	0	1	NULL
+on	prehistoric	/,pri:hi`storik/	史前的	3	1	老掉牙的
 on	peculiar	//	奇异的	0	0	NULL
-on	metal	//	金属的	0	0	NULL
-on	gust	//	一阵风	0	0	NULL
-on	anonymous	/3`non3m3s/	匿名的	0	0	NULL
-on	ransom	/`r@ns3m/	赎金	0	0	NULL
-on	withdraw	/wiZ`dro:/	从银行取钱	1	0	withdrew, ed.
-on	punctually	//	准时地	0	0	punctual, adj.
+on	metal	//	金属的	2	0	NULL
+on	gust	//	一阵风	1	0	NULL
+on	anonymous	/3`non3m3s/	匿名的	2	0	NULL
+on	ransom	/`r@ns3m/	赎金	0	2	NULL
+on	withdraw	/wiZ`dro:/	从银行取钱	3	0	withdrew, ed.
+on	punctually	//	准时地	1	0	punctual, adj.
 on	astound	//	使吃惊	0	0	astonish
-on	sure enough	//	果然	0	0	NULL
+off	sure enough	//	果然	5	0	NULL
 on	pioneer	/,pai3`ni3/	先驱	0	0	NULL
 on	lord	//	勋爵	0	0	贵族的尊称
-on	overland	//	陆上的	0	0	NULL
-on	coast	//	海岸	0	0	NULL
+on	overland	//	陆上的	0	1	NULL
+on	coast	//	海岸	0	2	NULL
 on	crude	//	粗野的	0	0	NULL
-on	marquis	//	侯爵	0	1	NULL
+on	marquis	//	侯爵	3	1	NULL
 on	technically	//	严格根据法律意义地	0	0	NULL
 on	fame	//	名声	0	0	NULL
-on	eminent	//	著名的	0	2	NULL
+on	eminent	//	著名的	0	3	NULL
 on	bitterly	//	厉害地	0	0	NULL
 on	extravagant	/ik`str@v3g3nt/	浪费的、奢侈的	1	0	NULL
-on	poverty	//	贫困	0	0	NULL
-on	fist	//	拳头	1	0	NULL
-on	draw up	//	草拟	0	0	NULL
+on	poverty	//	贫困	1	1	NULL
+on	fist	//	拳头	2	0	NULL
+on	draw up	//	草拟	1	1	NULL
 on	alike	//	一样地	0	0	equally?
 on	rise to fame	//	成名	0	0	NULL
-on	pupil	/`pju:p3l/	学生、徒弟	0	0	NULL
+on	pupil	/`pju:p3l/	学生、徒弟	1	0	NULL
 on	by heart	//	凭记忆	0	0	NULL
-on	run	//	连演、连映	0	0	戏剧、电影
-on	lines	//	台词	0	0	NULL
-on	falter	//	支吾	0	0	NULL
-on	cast	//	选派...扮演角色	0	0	抛、投
-on	aristocrat	/`@rist3kr@t/	贵族	0	0	NULL
+on	run	//	连演、连映	0	1	戏剧、电影
+on	lines	//	台词	2	1	NULL
+on	falter	//	支吾	1	1	NULL
+on	cast	//	选派...扮演角色	0	1	抛、投
+on	aristocrat	/`@rist3kr@t/	贵族	0	2	NULL
 on	imprison	//	关押	0	0	NULL
-on	gaoler	/`Geil3/	监狱长	0	0	NULL
-on	curtain	/`k3:tn/	幕布	0	0	NULL
+on	gaoler	/`Geil3/	监狱长	0	1	NULL
+off	curtain	/`k3:tn/	幕布	6	1	NULL
 on	cell	//	单人监房	1	0	NULL
-on	squint	//	眯着看	0	1	眯着
+on	squint	//	眯着看	1	1	眯着
 on	dim	//	昏暗	1	0	NULL
-on	sire	/sai3/	陛下	0	0	NULL
-on	noble	//	贵族、高尚的	0	1	NULL
+on	sire	/sai3/	陛下	2	0	NULL
+on	noble	//	贵族、高尚的	0	2	NULL
 on	eager	/`i:g3/	急切	0	0	NULL
 on	promptly	//	迅速地	0	0	NULL
-on	have cause to	//	会	0	0	有理由...
-on	octopus	/`okt3p3s/	章鱼	0	0	NULL
-on	delicacy	/`delik3si/	美味、佳肴	0	1	NULL
-on	repulsive	//	令人反感的	0	0	NULL
-on	turn	//	感到恶心	0	0	would turn at the idea
-on	snail	//	蜗牛	0	0	NULL
-on	luxury	//	奢侈品	0	0	NULL
-on	despise	//	鄙视	0	0	NULL
-on	stroll	//	溜达散步	0	0	NULL
-on	impulse	//	冲动	0	0	NULL
-on	fancy	//	喜爱	0	0	NULL
+on	have cause to	//	会	4	0	有理由...
+on	octopus	/`okt3p3s/	章鱼	4	0	NULL
+on	delicacy	/`delik3si/	美味、佳肴	3	1	NULL
+on	repulsive	//	令人反感的	0	1	NULL
+on	turn	//	感到恶心	0	1	would turn at the idea
+on	snail	//	蜗牛	2	0	NULL
+on	luxury	//	奢侈品	2	0	NULL
+on	despise	//	鄙视	0	2	NULL
+on	stroll	//	溜达散步	1	1	NULL
+on	impulse	//	冲动	1	3	NULL
+on	fancy	//	喜爱	0	1	NULL
 on	abuse	//	辱骂、责骂	0	0	不喜欢
-on	praise	//	赞扬、歌颂	0	0	praise and abuse
-on	skeleton	/`skelit3n/	骷髅	0	0	NULL
-on	seemingly	//	表面上地	0	0	NULL
-on	respectable	//	体面的、雅观的	0	1	NULL
-on	conceal	//	隐藏	0	0	reveal
-on	vivid	//	生动的	1	0	NULL
-on	guestroom	/`gest-rum/	来客住房	0	0	NULL
-on	unpack	//	取出	0	0	从箱子中
+on	praise	//	赞扬、歌颂	0	1	praise and abuse
+on	skeleton	/`skelit3n/	骷髅	1	0	NULL
+on	seemingly	//	表面上地	0	2	NULL
+on	respectable	//	体面的、雅观的	1	3	NULL
+on	conceal	//	隐藏	0	1	reveal
+on	vivid	//	生动的	2	0	NULL
+on	guestroom	/`gest-rum/	来客住房	1	1	NULL
+on	unpack	//	取出	0	2	从箱子中
 on	stack	//	堆放	1	0	NULL
-on	underclothes	/`and3kl3uZz/	内衣	0	0	NULL
-on	drawer	/dro:/	抽屉	0	0	till
-on	petrify	//	使惊呆	0	0	NULL
-on	dangle	//	悬挂	0	0	NULL
+on	underclothes	/`and3kl3uZz/	内衣	2	0	NULL
+on	drawer	/dro:/	抽屉	2	0	till
+on	petrify	//	使惊呆	2	0	NULL
+on	dangle	//	悬挂	0	1	NULL
 on	sway	//	摇摆	0	0	NULL
 on	unsympathetic	//	无动于衷的	0	0	NULL
-on	medical	//	医学的	0	0	NULL
-on	dramatic	/dr3`m@tik/	令人激动的	0	1	扣人心弦的
-on	heroine	/`her3uin/	女主人公	0	0	NULL
+on	medical	//	医学的	0	2	NULL
+on	dramatic	/dr3`m@tik/	令人激动的	1	1	扣人心弦的
+on	heroine	/`her3uin/	女主人公	2	0	NULL
 on	to varying degrees	//	在不同程度上	0	0	NULL
-on	dash	//	冲撞	0	0	破折号
+on	dash	//	冲撞	1	2	破折号
 on	leap	//	跳	1	0	NULL
-on	steamship	//	蒸汽轮船	0	0	NULL
-on	vessel	/`vess3l/	轮船、大木船	0	0	NULL
-on	rudder	//	舵	0	0	NULL
-on	roll	//	颠簸、摇摆	0	0	NULL
+on	steamship	//	蒸汽轮船	0	2	NULL
+on	vessel	/`vess3l/	轮船、大木船	4	0	NULL
+on	rudder	//	舵	4	0	NULL
+on	roll	//	颠簸、摇摆	2	0	NULL
 on	temporary	//	临时的	0	0	NULL
 on	plank	//	大块木板	0	0	NULL
-on	fit	//	安装	0	0	NULL
-on	Equator	//	赤道	0	0	NULL
-on	spare	/spe3/	多余的	0	1	NULL
-on	influence	//	影响	0	0	NULL
+on	fit	//	安装	1	0	NULL
+on	Equator	//	赤道	2	0	NULL
+on	spare	/spe3/	多余的	0	2	NULL
+on	influence	//	影响	1	2	NULL
 on	pride	//	骄傲	3	0	v.
 on	adj.+as	//	尽管	0	0	让步、倒装
-on	boot	//	汽车行李箱	0	0	NULL
-on	exert	/ig`z3:t/	施加	0	0	NULL
-on	wheelbarrow	//	独轮手推车	0	0	NULL
+on	boot	//	汽车行李箱	3	0	NULL
+on	exert	/ig`z3:t/	施加	0	1	NULL
+on	wheelbarrow	//	独轮手推车	0	1	NULL
 on	crane	//	起重机	0	1	NULL
-on	anticipate	//	预期、预料	0	0	NULL
-on	lorry	//	卡车	0	0	NULL
-on	competition	/komp3`tiSH3n/	竞争	0	0	注意音标
+on	anticipate	//	预期、预料	0	1	NULL
+on	lorry	//	卡车	3	0	NULL
+on	competition	/komp3`tiSH3n/	竞争	0	1	注意音标
 on	philosopher	/fi`los3f3/	哲学家	0	1	NULL
-on	priest	//	牧师	0	0	NULL
-on	spiritual	//	精神上的	0	0	NULL
-on	grudge	//	不愿给	0	0	舍不得给
-on	surgeon	//	外科医生	0	0	NULL
+on	priest	//	牧师	0	1	NULL
+on	spiritual	//	精神上的	1	1	NULL
+on	grudge	//	不愿给	0	1	舍不得给
+on	surgeon	//	外科医生	0	1	NULL
 on	passer-by	//	过路人	0	0	passers-by
-on	dignity	//	尊严	0	0	NULL
-on	deliberately	/di`lib3ritli/	故意地	1	0	NULL
-on	afflict	//	使苦恼、折磨	0	0	NULL
-on	ease	//	容易	0	0	n.
+on	dignity	//	尊严	1	0	NULL
+on	deliberately	/di`lib3ritli/	故意地	3	0	NULL
+on	afflict	//	使苦恼、折磨	0	1	NULL
+on	ease	//	容易	0	1	n.
 on	contempt	/k3n`tempt/	蔑视	0	0	NULL
-on	envious	/`envi3s/	嫉妒的	0	0	NULL
-on	tramp	//	流浪汉	0	0	NULL
-on	in the light of	//	依据、依照	0	0	NULL
-on	in times of sth.	//	确实需要...的时候	0	0	NULL
-on	wares	/we3z/	货物、商品	0	0	NULL
+on	envious	/`envi3s/	嫉妒的	3	1	NULL
+on	tramp	//	流浪汉	1	1	NULL
+on	in the light of	//	依据、依照	1	0	NULL
+on	in times of sth.	//	确实需要...的时候	1	3	NULL
+on	wares	/we3z/	货物、商品	0	1	NULL
 on	anchor	//	停航下锚	0	0	v.
-on	deck	//	甲板	0	0	NULL
-on	silverware	//	银器	0	0	NULL
+on	deck	//	甲板	2	0	NULL
+on	silverware	//	银器	1	0	NULL
 on	tempt	//	引诱	0	1	v.
-on	bargain	//	讨价还价	0	0	v.
-on	disembark	/,disim`ba:k/	下船上岸	0	0	NULL
+on	bargain	//	讨价还价	1	0	v.
+on	disembark	/,disim`ba:k/	下船上岸	0	2	NULL
 on	assail	/3`seil/	纠缠	0	0	NULL
 on	marble	//	小玻璃球	0	0	NULL
-on	inscribe	/in`skraib/	刻写、雕刻	0	0	NULL
-on	favour	//	好处、优惠	0	0	NULL
-on	gesticulate	/Ge`stikjuleit/	打手势	0	0	讲话时
-on	outrageous	/aut`reiG3s/	出人意料的	0	0	令人不悦的
-on	thrust	//	硬塞给	1	0	NULL
+on	inscribe	/in`skraib/	刻写、雕刻	1	1	NULL
+on	favour	//	好处、优惠	1	0	NULL
+on	gesticulate	/Ge`stikjuleit/	打手势	0	1	讲话时
+on	outrageous	/aut`reiG3s/	出人意料的	1	2	令人不悦的
+on	thrust	//	硬塞给	4	0	NULL
 on	readily	/`redili/	容易地、乐意地	0	0	NULL
-on	rug	//	地毯	0	0	NULL
-on	despair	/di`spe3/	绝望	0	0	n., v.
-on	copper	//	铜	0	0	NULL
-on	pot	//	壶	1	0	NULL
-on	genuine	/`Genjuin/	真实的	0	0	NULL
-on	comic	//	喜剧的、可笑的	0	0	NULL
-on	universal	//	普遍的	0	0	NULL
-on	eccentric	/ik`sentrik/	古怪人	0	0	行为
-on	disregard	//	不顾、漠视	0	0	NULL
-on	convention	/k3n`venSH3n/	习俗、风俗	0	0	NULL
-on	conscious	/`konSH3s/	感觉到的	0	0	意识到的
-on	invariably	/in`ve3ri3bli/	总是、经常地	1	0	NULL
+on	rug	//	地毯	3	0	NULL
+on	despair	/di`spe3/	绝望	3	0	n., v.
+on	copper	//	铜	1	0	NULL
+on	pot	//	壶	3	0	NULL
+on	genuine	/`Genjuin/	真实的	1	1	NULL
+on	comic	//	喜剧的、可笑的	2	1	NULL
+on	universal	//	普遍的	1	1	NULL
+off	eccentric	/ik`sentrik/	古怪人	5	0	行为
+on	disregard	//	不顾、漠视	0	1	NULL
+on	convention	/k3n`venSH3n/	习俗、风俗	1	0	NULL
+on	conscious	/`konSH3s/	感觉到的	0	1	意识到的
+on	invariably	/in`ve3ri3bli/	总是、经常地	3	1	NULL
 on	shrewd	/SHru:d/	精明的	0	0	NULL
-on	eccentricity	/,enksen`trisiti/	怪癖	0	0	NULL
-on	legendary	//	传奇般的	0	0	NULL
-on	snob	//	势利小人	0	0	NULL
+on	eccentricity	/,enksen`trisiti/	怪癖	0	1	NULL
+on	legendary	//	传奇般的	1	0	NULL
+on	snob	//	势利小人	0	1	NULL
 on	intensely	//	强烈地	1	0	NULL
 on	bedraggled	/bi`dr@g3ld/	拖泥带水的	0	0	NULL
-on	dump	//	砰地一声放下	0	0	NULL
-on	reprimand	/`reprima:nd/	训斥	0	0	NULL
-on	stage	//	暗中策划	0	0	NULL
-on	elaborate	/i`l@b3rit/	精心构思的	0	0	NULL
-on	dull	//	迟钝的、无趣的	0	0	NULL
-on	set out to	//	打算、企图	0	0	NULL
-on	severely	/si`vi3li/	严重地	0	0	NULL
-on	matrix	/`meitriks/	母体	1	0	注意音标
-on	per se	/,p3:`sei/	本质上、本身	0	0	internet per se
-on	dystopian	/dis`t3upi3n/	反乌托邦的	0	0	dystopia, n.
+on	dump	//	砰地一声放下	1	0	NULL
+on	reprimand	/`reprima:nd/	训斥	4	0	NULL
+on	stage	//	暗中策划	0	2	NULL
+on	elaborate	/i`l@b3rit/	精心构思的	0	1	NULL
+on	dull	//	迟钝的、无趣的	2	0	NULL
+on	set out to	//	打算、企图	3	2	NULL
+on	severely	/si`vi3li/	严重地	1	0	NULL
+on	matrix	/`meitriks/	母体	4	0	注意音标
+on	per se	/,p3:`sei/	本质上、本身	0	3	internet per se
+on	dystopian	/dis`t3upi3n/	反乌托邦的	1	1	dystopia, n.
 on	head	//	发展	0	0	things are headed
-on	mind-expanding	//	迷幻的	0	0	NULL
-on	ultra	/`altr3/	极端的、过激分子	0	0	ultra-stylish
-on	stylish	/`stailiSH/	时髦的	0	1	NULL
-on	thriller	//	惊险小说、电影	1	0	thrill, 激动、紧张
-on	wed with	//	结合	0	0	NULL
-on	balletic	/b3`letik/	似芭蕾舞的	0	0	NULL
-on	stunning	//	极好的	0	0	stun, 使震惊、打昏
-on	elasticity	/i,l@`stis3ti/	灵活性	0	0	NULL
-on	 CGI	//	电脑特效	0	0	computer-generated imagery
-on	flight	//	时光流逝	0	0	NULL
-on	touchstone	//	试金石	0	0	NULL
-on	vastly	//	非常、极大地	0	0	NULL
-on	make sense of	//	理解	0	0	NULL
-on	marvel	//	奇迹	0	0	NULL
-on	take root	//	扎根	0	0	NULL
+on	mind-expanding	//	迷幻的	0	2	NULL
+on	ultra	/`altr3/	极端的、过激分子	1	1	ultra-stylish
+on	stylish	/`stailiSH/	时髦的	0	2	NULL
+on	thriller	//	惊险小说、电影	2	0	thrill, 激动、紧张
+on	wed with	//	结合	4	0	NULL
+on	balletic	/b3`letik/	似芭蕾舞的	3	0	NULL
+on	stunning	//	极好的	0	1	stun, 使震惊、打昏
+on	elasticity	/i,l@`stis3ti/	灵活性	1	0	NULL
+on	 CGI	//	电脑特效	0	1	computer-generated imagery
+on	flight	//	时光流逝	0	1	NULL
+on	touchstone	//	试金石	4	0	NULL
+on	vastly	//	非常、极大地	2	0	NULL
+on	make sense of	//	理解	1	1	NULL
+on	marvel	//	奇迹	1	0	NULL
+on	take root	//	扎根	0	1	NULL
 on	destabilized	/di`steib3`laizd/	动摇的	0	0	destabilize, v.
-on	conspiracy	/k3n`spir3si/	阴谋	0	0	conspiracy theory
-on	flourish	//	兴旺、繁荣	0	1	NULL
-on	technophobic	/,tekn3u`f3ubik/	技术恐惧	1	0	technophobia
-on	falsehood	//	不真实	0	0	NULL
+on	conspiracy	/k3n`spir3si/	阴谋	1	2	conspiracy theory
+on	flourish	//	兴旺、繁荣	0	3	NULL
+on	technophobic	/,tekn3u`f3ubik/	技术恐惧	2	0	technophobia
+on	falsehood	//	不真实	2	2	NULL
 on	dictation	//	命令	0	0	dictate, v.
 on	recession	//	衰退、萧条	0	0	NULL
-on	share	//	占比	0	0	NULL
-on	the ebb and flow	//	涨落、起伏	0	0	退潮+涨潮
-on	tie	//	关系、纽带、领带	0	0	community ties
-on	account for	//	导致	0	0	NULL
-on	religiosity	/ri,liGi`o:s3ti/	笃信宗教	0	0	NULL
-on	but for	//	要不是	0	0	主句用虚拟
-on	buffer	//	减少、缓解	0	0	NULL
-on	institution	//	风俗习惯、制度	1	0	NULL
+off	share	//	占比	5	0	NULL
+on	the ebb and flow	//	涨落、起伏	0	2	退潮+涨潮
+on	tie	//	关系、纽带、领带	1	0	community ties
+on	account for	//	导致	0	2	NULL
+on	religiosity	/ri,liGi`o:s3ti/	笃信宗教	1	1	NULL
+on	but for	//	要不是	2	0	主句用虚拟
+on	buffer	//	减少、缓解	1	0	NULL
+on	institution	//	风俗习惯、制度	3	0	NULL
 on	in place of	//	代替	1	0	NULL
-on	end of the story	//	情况就是这样	0	0	NULL
+on	end of the story	//	情况就是这样	4	1	NULL
 on	decline	/di`klain/	下降、谢绝	0	0	注意音标
-on	canvas	/`k@nv3s/	画布	0	0	NULL
-on	intense	/in`tens/	强烈的	0	0	NULL
-on	grief	//	悲痛	0	0	NULL
+on	canvas	/`k@nv3s/	画布	2	0	NULL
+on	intense	/in`tens/	强烈的	1	1	NULL
+on	grief	//	悲痛	0	2	NULL
 on	trauma	/`traum3/	心理创伤	0	0	NULL
-on	play out	//	放出、结束、做完	0	0	用完
-on	scenario	/si`na:ri3u/	场景	0	0	NULL
-on	consequence	//	后果	0	0	NULL
-on	surreal	/s3`ri:3l/	超现实	0	0	sur+real
-on	collage	/k3`la:G/	大杂烩	0	0	college
-on	lobe	/l3ub/	脑、肺叶	0	0	frontal lobe
-on	go dark	//	进入休眠、关闭	0	0	NULL
-on	blind spot	//	盲点、未知领域	0	0	NULL
+on	play out	//	放出、结束、做完	0	1	用完
+on	scenario	/si`na:ri3u/	场景	1	1	NULL
+on	consequence	//	后果	2	0	NULL
+on	surreal	/s3`ri:3l/	超现实	1	0	sur+real
+on	collage	/k3`la:G/	大杂烩	3	0	college
+on	lobe	/l3ub/	脑、肺叶	1	1	frontal lobe
+on	go dark	//	进入休眠、关闭	1	0	NULL
+on	blind spot	//	盲点、未知领域	1	0	NULL
 on	home in on	//	集中注意力于	0	0	NULL
+on	canonical	/k3`nonik3l/	权威的、典型的	2	0	NULL
+on	spatial	/`speiSHl/	空间的	0	1	NULL
+on	maneuver	/m3`nuv3/	演习	0	1	姿态调整
+on	collision	/k3`liR3n/	碰撞	1	0	NULL
+on	trajectory	/tr3`Gekt3ri/	轨迹	2	0	NULL
+on	intruder	//	入侵者	2	0	NULL
+on	imminent	//	迫近的	0	0	NULL
+on	justify	//	证明合法	0	1	NULL
+on	autonomous	/o`to:n3m3s/	自治的	1	0	NULL
+on	lane	//	航线	2	0	NULL
+on	drone	/dr3un/	无人机	0	0	drone aircraft
+on	advisory	/3d`vaiz3ri/	咨询的	0	1	NULL
+on	cruise	/kru:z/	巡航	1	0	NULL
+on	vicinity	/vi`siniti/	邻近	0	2	NULL
+on	surgery	/`s3:G3ri/	外科手术	0	1	NULL
+on	sustain	/s3`stein/	维持	1	0	systained, 持续的
+on	vehicle	/vi:ik3l/	车辆、交通工具	1	1	NULL
+on	infrequent	/in`fri:kw3nt/	稀少的	0	0	NULL
+on	every once in a while	//	偶尔	0	0	NULL
+on	crucial	/`kru:SHl/	重要的	1	0	NULL
+on	likewise	//	同样地	1	0	NULL
+on	follow-on	//	持续下去	0	1	NULL
+on	paramount	/`p@r3maunt/	最重要的	1	0	NULL
+on	rather	//	相当、宁愿	0	0	NULL
+on	requisite	/`rekwizit/	必须的	0	0	pre+requisite
+on	discriminate	/di`skrimineit/	歧视、辨别、区别	0	1	v.
+on	rephrase	//	改述、重新措辞	0	1	NULL
+on	malfunction	/m@l`fangkSH3n/	发生故障、失灵	3	0	NULL
+on	at stake	//	在紧要关头	5	1	NULL
+on	rationale	/,r@SH3`na:l/	基本原理	1	0	NULL
+on	deserve	//	应受、应得	0	0	NULL
+on	ultimate	/`altim3t/	最终的、极限的	1	0	NULL
+on	endeavor	/in`dev3/	努力	0	0	v., n.
+on	naive	/nai`i:v/	天真的、幼稚的	1	0	NULL
+on	aileron	/`eil3ron/	副翼	0	1	NULL
+on	coerce	/k3u`3:s/	强迫	0	1	NULL
+on	ambivalent	/@m`biv3l3nt/	矛盾的	0	2	NULL
+on	schema	/`ski:m3/	图解	1	0	schematic, shematically
+on	linguistic	//	语言的	1	0	NULL
+on	owe to	//	由于	2	0	NULL
+on	facet	/`f@sit/	方面、面	2	0	NULL
+on	adversarial	/,@dv3`se3ri3l/	对抗的、对手的	0	4	NULL
+on	manifest	/`m@nifest/	表明、显示	0	3	NULL
+on	side by side	//	并排	1	0	NULL
+on	entangle	/in`t@ngg3l/	使纠缠	1	2	NULL
+on	intrinsic	//	本质的、固有的	0	1	NULL
+on	embrace	/im`breis/	拥抱	4	0	NULL
+on	mere	/mi3/	仅仅的	1	0	NULL
+on	considerably	//	相当地	0	0	NULL
+on	convey	/k3n`vei/	传达	3	0	NULL
+on	carry out	//	执行	2	1	NULL
+on	carry over	//	留到以后处理	0	2	NULL
+on	prerequisite	/pri:`rekwizit/	先决条件	0	1	NULL
+on	peel	//	剥	0	0	NULL
+on	finale	/fi`na:li/	结局	3	0	NULL
+on	downside	//	负面	2	0	NULL
+on	conventional	//	传统的	2	0	convention, 大会、惯例
+on	persevere	/p3:si`vi3/	坚持	0	0	perseverance
+on	expedition	//	远征	2	0	NULL
+on	treat	//	治疗、对待	0	0	NULL
+on	compendium	/k3m`pendi3m/	纲要	0	0	NULL
+on	substantial	/s3b`st@nSH3l/	大量的、实质的	1	3	NULL
+on	semester	/si`mest3/	学期、半年	0	1	NULL
+on	derivative	/di`riv3tiv/	导数、派生的	0	0	NULL
+on	elective	//	选修的	2	0	可选择的
+on	lantern	/`l@nt3n/	灯笼	2	1	NULL
+on	spectacle	/`spekt3k3l/	景象、壮观、场面	1	0	NULL
+on	be expected to	//	预料做	1	0	NULL
+on	lay out	//	摆开、展示	1	0	NULL
+on	drift	//	漂流	1	0	drift out
+on	all night long	//	整夜	2	0	NULL
+on	fantasy	//	幻想故事	0	0	NULL
+on	frightful	//	可怕的	1	1	令人吃惊的
+on	extinguish	//	熄灭	0	0	fire extinguisher
+on	drily	/`draili/	冷淡地	0	1	枯燥无味地
+on	ambassador	/@m`b@s3d3/	大使	0	0	embassy, `emb3si
+on	basement	//	地下室	0	0	NULL
+on	post	//	派任	2	0	NULL
+on	shot	/SHot/	子弹	0	1	fire a shot
+on	pale	//	苍白的、无力的	0	0	NULL
+on	exclaim	//	呼喊	2	0	NULL
+on	break out	//	爆发、突发	1	0	fire broke out
+on	keen	//	对某事着迷	0	1	NULL
+on	produce	/pr3`dju:s/	出示	0	0	produce notes
+on	flight attendants	//	空乘人员	1	0	NULL
+on	heel	//	脚跟、鞋跟	0	0	heels, 高跟鞋
+on	eyelash	/`ail@SH/	睫毛	1	1	NULL
+on	mortifying	//	令人尴尬的	0	1	NULL
+on	politician	//	政治家	1	0	NULL
+on	steward	/`stju:3d/	飞机乘务员	1	1	NULL
+on	ditch	//	废除	1	1	NULL
+on	follow suit	//	仿效	1	1	the rest follow suit
+on	see off	//	目送、停止、打败	0	0	NULL
+on	cliche	/kli:SHei/	老生常谈	2	0	陈词滥调
+on	when it comes to	//	一提起	0	1	NULL
+on	chauvinistic	/,SH3uvi`nistik/	盲目爱国的	0	1	大男子主义的
+on	groom	//	打扮	0	0	grooming, n.
+on	diktat	/dik`t@t/	死命令	2	0	NULL
+on	quasi-	/`kwo:zi/	类似...	1	0	quasi-official
+on	gratuitous	/gr3`tu:it3s/	无偿的、免费的	0	1	NULL
+on	nerver mind that	//	撇开...不谈	0	2	NULL
+on	styling	//	造型	0	0	NULL
+on	perilously	/`per3l3sli/	危险地	0	2	+adj., 程度高地
+on	wellbeing	//	舒适、幸福	1	0	NULL
+on	as with	//	就像...一样	1	0	NULL
+on	totter	/`tot3/	踉跄	1	0	跌跌撞撞
+on	on earth	//	究竟	1	0	why on earth
+on	engage	/in`geiG/	预定、雇佣、从事、保证	3	0	占用、吸引、交战、齿合
+on	Vietnamese	/`vj3tn3mi:z/	越南的、越南人	0	0	Vietnam, /,vjet`n@m/
+on	dilemma	/dai`lem3/	窘境、困境	0	0	NULL
+on	counselling	/`kauns3ling/	辅导、咨询	1	1	职业性的
+on	illusion	/i`lu:R3n/	幻觉、错觉	0	1	NULL
+on	immortality	/,imo:`t@l3ti/	不朽、永生	3	0	mortal, 可朽的、凡人
+on	every couple of years	//	每隔几年	0	0	NULL
+on	surplus	/`s3:pl3s/	剩余的、过剩的	1	0	n.
+on	jettison	/`G3tisn/	放弃、丢弃	0	0	get rid of
+on	impersonate	//	冒充、假扮	0	0	to pretend to be sb.
+on	harbour	/`ha:b3/	藏匿、避难所	2	0	v., n.
+on	toxic	//	恶毒的	0	0	harbour toxic secrets
+on	relative	/`rel3tiv/	亲戚	3	0	相对的、有关系的
+on	if nothing else	//	不说别的	0	0	NULL
+on	bury	/`beri/	埋葬、隐藏	0	0	NULL
+on	hundredweight	//	大量的、成吨的	1	0	a hundredweight of
+on	differentiate	//	区分、辨别	0	0	differentiated
+on	hoarder	/`ho:d3/	贮藏者	0	1	NULL
+on	rafter	/`r@ft3/	椽	1	0	up to rafter
+on	artefact	/`a:tif@kt/	手工制品	0	0	作品
+on	corporation	/ko:p3`reiSH3n/	公司	1	0	大公司
+on	scrutiny	/`skru:tini/	审查	0	2	logical scrutiny
+on	retrofit	/`retr3ufit/	改进	0	2	retrofit safety
+on	thereby	//	从而	0	0	NULL
+on	nuance	/`nju:a:ns/	细微差别	0	0	nuanced
+on	align	/3`lain/	使结盟	2	0	NULL
+on	unison	/`ju:nis3n/	和谐	0	0	NULL
+on	rendition	/ren`diSH3n/	译文、演奏、提供	0	0	NULL
+on	hazard	/`h@z3d/	危险	1	0	NULL
+on	pacemaker	//	起搏器	0	0	NULL
+on	contribute to	//	做出贡献	2	0	you contribute to the design
+on	overwhelm	//	淹没	0	0	NULL
+on	wonder	//	惊奇、想知道、怀疑	0	0	奇妙的
+on	perception	//	感知	0	1	perceptions of the world
+on	round out	//	完成	0	0	NULL
+on	parsimonious	/,pa:si`m3uni3s/	吝啬的、质量差的	0	1	NULL
+on	discrepancy	/dis`krep3nsi/	矛盾、不符	0	0	NULL
+on	tactical	/`t@ktik3l/	战术的、策略的	1	0	NULL
+on	full-blown	//	成熟的	0	1	full-blown applications
+on	propel	/pr3`pel/	推进	1	1	self-propelled
+on	defer	/di`f3/	推迟	1	0	be deferred to PartIII
+on	attain	//	达到、实现	0	1	NULL
+on	truant	/tru:3nt/	逃学者	0	0	play truant
+on	unimaginative	//	缺乏想象力的	0	0	NULL
+on	as far as	//	到...程度	0	0	NULL
+on	hitchhike	/`hiCHhaik/	搭便车旅行	0	0	NULL
+on	towards evening	//	天快黑时	1	0	NULL
+on	creep	//	爬行	1	0	crept, ed.
+on	Paris	/`p@ris/	巴黎	2	0	注意音标
+on	evade	/i`veid/	逃避、逃离	0	0	evade school
+on	put sb. to shame	//	使某人羞愧	1	0	相形见绌
+on	limelight	/`laimlait/	舞台灯光	2	0	舞台
+on	disguise	/dis`gaiz/	掩饰、伪装	0	1	vt., n.
+on	a party of	//	一群	1	1	a party of famous actors
+on	precaution	//	预防措施	0	0	precautions
+on	shady	/`SHeidi/	遮阴的	2	0	NULL
+on	spot	//	地点	3	0	shady spot
+on	sheriff	/`SHerif/	司法长官	0	0	NULL
+on	in case	//	万一、除非	1	0	in case you cannot read
+on	be hard on sb.	//	对...严厉	1	0	使...难堪
+on	sneer	/sni3/	冷笑	1	0	with a sneer
+on	Inc.	//	Incorporated	0	0	股份有限公司
+on	Corp.	//	Corporation	0	0	大公司
+on	file	//	提出申请、归档	1	0	filing, 归档文件
+on	be looking to	//	试图找到做...方法	0	1	it is looking to do
+on	placeholder	//	占位、占位符	3	0	NULL
+on	disclose	//	透露	2	0	reveal
+on	shares	//	股票	1	0	NULL
+on	securities	//	证券	0	0	NULL
+on	commission	/k3`miSH3n/	委员会	1	0	NULL
+on	wage	//	发动、组织	0	1	wage a war/campaign
+on	campaign	/k@m`pein/	运动、竞选	0	0	NULL
+on	caffeine	/`k@fi:n/	咖啡因	0	0	NULL
+on	generous	//	慷慨的	1	0	NULL
+on	subsidy	/`sabs3di/	津贴、补贴	1	0	NULL
+on	viral	/`vair3l/	病毒般传播的	1	0	viral promotions
+on	in turn	//	依次、转而	0	0	it in turn has pushed
+on	tie-up	//	合作	0	0	NULL
+on	prospectus	/pr3`spekt3s/	企业招股说明	0	0	学校招生简章
+on	acquisition	//	获得	2	0	acquire, v.
+on	quarter	//	四分之一	0	0	季度、一刻钟
+on	year-ago	//	去年同期	2	0	NULL
+on	roll back	//	逐渐减少	2	0	NULL
+on	stick around	//	停留、逗留	0	1	customers stick around
+on	principal	//	企业负责人	0	0	NULL
+on	a host of	//	许多、一大群	1	0	a host of small players
+on	stamp	//	跺、踩	0	0	she stamps out a letter
+on	scene	/si:n/	现场	2	0	arrive on the scene
+on	survivor	/s3`vaiv3/	幸存者	0	0	NULL
+on	fly off course	//	飞行偏离航线	0	0	NULL
+on	reportedly	//	据说	0	1	a person reportedly paid...
+on	spot	//	名额	0	0	spot at Stanford
+on	prosecute	/`pro:sikju:t/	检举、起诉	0	0	prosecutor, 公诉人
+on	announce	//	宣布	0	0	prosecutors announced charges
+on	charge	//	指控	0	2	prosecutors announced charges
+on	sweeping	//	影响广泛的	0	0	sweep, 打扫、迅速蔓延
+on	fraud	//	诈骗	0	0	college admissions fraud
+on	hold out	//	隐藏	0	0	hold out a mystery
+on	tantalizing	/`t@nt3laizing/	吸引人的	0	0	tantalize, 撩拨
+on	scheme	/ski:m/	阴谋、诡计	1	2	计划、方案
+on	direct knowledge	//	第一手资料	1	0	a person with direct knowledge of
+on	hearing	/`hiring/	听觉、听证会	0	0	at a court hearing
+on	supposed	//	所谓的	0	0	her supposed sailing achievements
+on	ultimately	/`altim3tli/	最后、根本、基本上	0	0	注意音标, al = o
+on	credentials	/kr3`denSHlz/	资历、资格证明	0	0	academyic credentials, 学历
+on	coalition	/,k3u3`liSH3n/	联合、合并	0	0	coalesce, v.
+on	biography	//	个人简介	0	0	NULL
+on	major in	//	主修	0	0	NULL
+on	disparate	/`disp3r3t/	截然不同的	0	0	NULL
+on	contentious	/k3n`tenSH3s/	有争议的	0	1	controversial
+on	persistent	//	持续的、顽固存在的	0	1	NULL
+on	startling	/`sta:tling/	令人震惊的	0	0	NULL
+on	exposure	/ik`sp3uR3/	接触、暴露	0	0	NULL
+on	aspiration	/,@sp3`reiSHn/	志向、抱负	0	0	NULL
+on	merit	/`merit/	值得、应受	0	0	deserve
+on	rhetorical	/ri`to:rikl/	言语上的	0	0	口头上的
+on	modesty	/`mo:d3sti/	谦虚、谦逊	0	0	NULL
+on	rah-rah	/`ra:/	盲目的热情、狂热的	0	0	NULL
+on	empowerment	/im`pau3m3nt/	授权、自由	0	0	women`s empowerment
+on	in measurable ways	//	明显	0	0	NULL
+on	omnipresent	/omni`prez3nt/	无处不在的	0	0	NULL
+on	unanimously	/ju:`n@nim3sli/	全体一致地	0	0	NULL
+on	heterogeneous	/,het3r3u`Gi:ni3s/	混杂的	0	0	NULL
+on	pragmatic	/pr@g`m@tik/	实际的、实用主义的	0	0	NULL
+on	avionics	/,eivi`oniks/	航空电子设备	0	1	NULL
+on	palette	/`p@lit/	调色板	0	0	a palette of
+on	synchronous	/`singkr3n3s/	同步的	0	0	NULL
+on	reminiscent	/remi`nis3nt/	怀旧的	0	0	reminiscent of circuit diagrams
+on	peripheral	/p3`rif3r3l/	外围的	0	0	peripheral equipment
+on	affiliated	/3`filieitid/	附属的	0	0	be affiliated to
+on	mechanism	/`mek3nizm/	机制	0	0	NULL
+on	persist	//	坚持、存留	0	0	NULL
+on	stipulate	/`stipjuleit/	规定、保证	0	0	NULL
+on	provision	/pr3`viR3n/	规定、条款	0	0	NULL
+on	prioritize	/prai`oritaiz/	优先处理	0	0	注意音标
+on	incubator	/`ingkjubeit3/	保温箱	0	0	NULL
+on	abundant	/3`band3nt/	丰富的	0	0	NULL
+on	memoir	/`memwa:/	回忆录	0	0	NULL
+on	on track	//	有望成功	0	0	be on tract to do
+on	chief	/CHi:f/	首领	0	0	chief executive
+on	title	/`tait3l/	书的一种、一本	0	0	They published 10 new titles
+on	juggernaut	/`Gag3no:t/	不可抗拒的强大力量	0	1	global sales juggernaut
+on	launch	//	出版	0	0	NULL
+on	simultaneously	/,siml`teini3sli/	同时地	0	0	NULL
+on	audiobook	/`o:di3ubuk/	有声读物	0	0	NULL
+on	put out	//	出版	0	0	put out by ...
+on	tour	/tu3/	巡演	0	0	NULL
+on	stand at	//	处于...状态	0	1	the sales stand at 1000
+on	lucrative	/`lu:kr3tiv/	赚钱的、盈利的	0	0	life here is lucrative
+on	strike a deal	//	达成协议	0	0	NULL
+on	stream	//	流	1	0	streaming service
