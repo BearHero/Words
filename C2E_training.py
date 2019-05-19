@@ -23,6 +23,7 @@ words_missed = []
 
 for index in selected_word_list:
     print('-'*10)
+    print("Index: "+str(selected_word_list.index(index)+1))
     current_word = word_list[index][3]  # index 1: mean
     print("Words: \033[0;31m%s\033[0m" % current_word)
     remember = input("Remember? ")
@@ -45,8 +46,12 @@ for index in selected_word_list:
         print("\033[0;34m%s\033[0m" % "MISSED!")
         word_list[index][5] = str(miss+1)  # index 5: miss
         words_missed.append(word_list[index][1])
+    hits = int(word_list[index][4])  # index 4: hits
+    miss = int(word_list[index][5])  # index 5: miss
+    print("(HITS: "+str(hits)+", MISS: "+str(miss)+')')
     if hits - miss >= up_limit:
         word_list[index][0] = "off"  # index 0: state
+        print("\033[0;33m%s\033[0m" % "(On -> Off)")
 
 f = open("words.inf", 'w')
 f.write(head)
