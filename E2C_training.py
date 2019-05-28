@@ -11,7 +11,7 @@ f.close()
 valid_word_list = [index for index in range(len(word_list)) if word_list[index][0] == "on"]  # index 0: state == on
 random.shuffle(valid_word_list)  # shuffle the word list before selecting
 
-print('*'*10)
+print('*'*50)
 number = int(input("Number: "))
 if number > len(word_list):
     print("The number of selected words is too big!")
@@ -20,9 +20,9 @@ selected_word_list = valid_word_list[:number]
 
 words_hit = []
 words_missed = []
-
+off_words = 0
 for index in selected_word_list:
-    print('-'*10)
+    print('-'*50)
     print("Index: "+str(selected_word_list.index(index)+1))
     current_word = word_list[index][1]  # index 1: word
     print("Words: \033[0;31m%s\033[0m" % current_word)
@@ -52,6 +52,11 @@ for index in selected_word_list:
     if hits - miss >= up_limit:
         word_list[index][0] = "off"  # index 0: state
         print("\033[0;33m%s\033[0m" % "(On -> Off)")
+        off_words += 1
+if off_words:
+    f_record = open("records.log", 'a')
+    f_record.write("Date: "+time.strftime('%Y-%m-%d  %H:%M:%S', time.localtime(time.time()))+', -'+str(off_words)+'\n')
+    f_record.close()
 
 f = open("words.inf", 'w')
 f.write(head)

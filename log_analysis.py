@@ -17,7 +17,7 @@ for opt, arg in opts:
     if opt == "--log":
         file = arg
 
-# print(file)
+print(file)
 f = open(file, 'r')
 line = f.readline()
 while not line.startswith("Date"):
@@ -39,6 +39,7 @@ while line.startswith("Date"):
     _ = f.readline()  # Blank
     line = f.readline()
 f.close()
+# print(num_hits_list)
 # num_hits_list = np.array(num_hits_list)
 # num_miss_list = np.array(num_miss_list)
 # num_total_list = num_hits_list + num_miss_list
@@ -65,6 +66,7 @@ plt.show()
 rate_hits = np.array([1.0*num_hits_list[i]/num_total_list[i] for i in range(len(num_hits_list))])
 # mean_rate_hits = np.mean(rate_hits)
 # std_rate_hits = np.std(rate_hits)
+plt.scatter(timestamps, rate_hits, color='b')
 plt.plot(timestamps, rate_hits, color='b')
 mean_rate_hits = np.array([np.mean(rate_hits[:i+1]) for i in range(rate_hits.shape[0])])
 std_rate_hits = np.array([np.std(rate_hits[:i+1]) for i in range(rate_hits.shape[0])])
