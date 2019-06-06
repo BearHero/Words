@@ -16,7 +16,8 @@ while True:
     state = "on"
     hits = '0'
     miss = '0'
-    line = state + '\t' + word + '\t/' + pronounce + '/\t' + mean + '\t' + hits + '\t' + miss + '\t' + extend + '\n'
+    last_time = 'NULL'
+    line = state + '\t' + word + '\t/' + pronounce + '/\t' + mean + '\t' + hits + '\t' + miss + '\t' + extend + '\t' + last_time + '\n'
     f_word.write(line)
     count += 1
 f_word.close()

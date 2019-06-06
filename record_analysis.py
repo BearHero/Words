@@ -15,7 +15,12 @@ for line in f.readlines():
     records.append(number)
 f.close()
 
-plt.scatter(timestamps, records, marker='.')
-plt.plot(timestamps, records)
+# plt.scatter(timestamps, records, marker='.')
+for i in range(1, len(timestamps)):
+    timestamp = timestamps[i]
+    number = records[i]
+    [marker, color] = ['^', 'b'] if number > records[i-1] else ['v', 'r']
+    plt.scatter(timestamp, number, color=color, marker=marker, s=20)
+plt.plot(timestamps, records, color='g', linewidth=1)
 plt.title("Words not remembered (from 2019-05-21  21:00:31)")
 plt.show()
